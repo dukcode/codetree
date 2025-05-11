@@ -1,4 +1,4 @@
-package org.dukcode.ps.codetree.trail2.lesson2;
+package org.dukcode.ps.codetree.trail02.chapter01.lesson02;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,9 +9,9 @@ import java.util.StringTokenizer;
 
 /**
  * @see <a
- * href="https://www.codetree.ai/ko/trails/complete/curated-cards/intro-decimal-decisions-using-functions/description">LINK</a>
+ * href="https://www.codetree.ai/ko/trails/complete/curated-cards/intro-369-games-using-functions/description">LINK</a>
  */
-public class IntroDecimalDecisionsUsingFunctions {
+public class Intro369GamesUsingFunctions {
 
   private static BufferedReader br;
   private static BufferedWriter bw;
@@ -25,31 +25,43 @@ public class IntroDecimalDecisionsUsingFunctions {
     int a = Integer.parseInt(st.nextToken());
     int b = Integer.parseInt(st.nextToken());
 
-    bw.write(String.valueOf(sumPrimeNums(a, b)));
+    bw.write(String.valueOf(solve(a, b)));
 
     br.close();
     bw.close();
 
   }
 
-  private static int sumPrimeNums(int frIn, int toIn) {
-    int sumPrimeNums = 0;
-    for (int num = frIn; num <= toIn; num++) {
-      if (isPrimeNum(num)) {
-        sumPrimeNums += num;
+  private static int solve(int a, int b) {
+    if (a > b) {
+      return solve(b, a);
+    }
+
+    int cnt = 0;
+    for (int num = a; num <= b; num++) {
+      if (check(num)) {
+        cnt++;
       }
     }
 
-    return sumPrimeNums;
+    return cnt;
   }
 
-  private static boolean isPrimeNum(int num) {
-    for (int i = 2; i * i <= num; ++i) {
-      if (num % i == 0) {
-        return false;
-      }
+  private static boolean check(int num) {
+    if (num % 3 == 0) {
+      return true;
     }
 
-    return true;
+    while (num > 0) {
+      int digit = num % 10;
+
+      if (digit == 3 || digit == 6 || digit == 9) {
+        return true;
+      }
+
+      num /= 10;
+    }
+
+    return false;
   }
 }

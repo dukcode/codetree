@@ -1,4 +1,4 @@
-package org.dukcode.ps.codetree.trail2.lesson1;
+package org.dukcode.ps.codetree.trail02.chapter01.lesson01;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

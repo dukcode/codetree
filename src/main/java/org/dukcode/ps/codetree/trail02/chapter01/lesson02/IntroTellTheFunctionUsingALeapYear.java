@@ -1,18 +1,17 @@
-package org.dukcode.ps.codetree.trail2.lesson2;
+package org.dukcode.ps.codetree.trail02.chapter01.lesson02;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
  * @see <a
- * href="https://www.codetree.ai/ko/trails/complete/curated-cards/intro-minimum-value-of-an-integer/introduction">LINK</a>
+ * href="https://www.codetree.ai/ko/trails/complete/curated-cards/intro-tell-the-function-using-a-leap-year/description">LINK</a>
  */
-public class IntroMinimumValueOfAnInteger {
+public class IntroTellTheFunctionUsingALeapYear {
 
   private static BufferedReader br;
   private static BufferedWriter bw;
@@ -22,18 +21,15 @@ public class IntroMinimumValueOfAnInteger {
     br = new BufferedReader(new InputStreamReader(System.in));
     bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-    int[] arr = new int[3];
-    st = new StringTokenizer(br.readLine());
-    arr[0] = Integer.parseInt(st.nextToken());
-    arr[1] = Integer.parseInt(st.nextToken());
-    arr[2] = Integer.parseInt(st.nextToken());
-
-    Arrays.sort(arr);
-
-    bw.write(String.valueOf(arr[0]));
+    int year = Integer.parseInt(br.readLine());
+    bw.write(isLeapYear(year) ? "true" : "false");
 
     br.close();
     bw.close();
 
+  }
+
+  private static boolean isLeapYear(int year) {
+    return (year % 4 == 0) && !(year % 100 == 0 && year % 400 != 0);
   }
 }

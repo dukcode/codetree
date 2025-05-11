@@ -1,4 +1,4 @@
-package org.dukcode.ps.codetree.trail2.lesson1;
+package org.dukcode.ps.codetree.trail02.chapter01.lesson01;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -8,11 +8,9 @@ import java.io.OutputStreamWriter;
 
 /**
  * @see <a
- * href="https://www.codetree.ai/ko/trails/complete/curated-cards/intro-repeated-output/introduction">LINK</a>
+ * href="https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-rectangle-with-a-number/description">LINK</a>
  */
-public class IntroRepeatedOutput {
-
-  private static final String TEXT = "12345^&*()_";
+public class ChallengeRectangleWithANumber {
 
   private static BufferedReader br;
   private static BufferedWriter bw;
@@ -24,17 +22,23 @@ public class IntroRepeatedOutput {
     bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
     n = Integer.parseInt(br.readLine());
-    printLine(n);
+
+    printSquare(n);
 
     br.close();
     bw.close();
 
   }
 
-  private static void printLine(int times) throws IOException {
-    for (int i = 0; i < times; i++) {
-      bw.write(TEXT);
+  private static void printSquare(int n) throws IOException {
+    for (int y = 0; y < n; y++) {
+      for (int x = 0; x < n; x++) {
+        int num = (y * n + x) % 9 + 1;
+        bw.write(String.valueOf(num));
+        bw.write(' ');
+      }
       bw.newLine();
     }
+    bw.newLine();
   }
 }
