@@ -1,4 +1,4 @@
-package org.dukcode.ps.codetree.trail2;
+package org.dukcode.ps.codetree.trail2.lesson1;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,14 +9,13 @@ import java.util.StringTokenizer;
 
 /**
  * @see <a
- * href="https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-find-the-greatest-common-divisor/description">LINK</a>
+ * href="https://www.codetree.ai/ko/trails/complete/curated-cards/test-find-the-least-common-multiple/description">LINK</a>
  */
-public class ChallengeFindTheGreatestCommonDivisor {
+public class TestFindTheLeastCommonMultiple {
 
   private static BufferedReader br;
   private static BufferedWriter bw;
   private static StringTokenizer st;
-
   private static int n;
   private static int m;
 
@@ -28,11 +27,15 @@ public class ChallengeFindTheGreatestCommonDivisor {
     n = Integer.parseInt(st.nextToken());
     m = Integer.parseInt(st.nextToken());
 
-    bw.write(String.valueOf(gcd(n, m)));
+    bw.write(String.valueOf(lcm(n, m)));
 
     br.close();
     bw.close();
 
+  }
+
+  private static int lcm(int a, int b) {
+    return a * b / gcd(a, b);
   }
 
   private static int gcd(int a, int b) {
