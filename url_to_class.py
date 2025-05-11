@@ -21,7 +21,7 @@ def extract_class_name_from_url(url):
 def is_valid_codetree_url(url):
     return url.startswith('https://www.codetree.ai/')
 
-def create_java_class(trail_num, url):
+def create_java_class(trail_num, lesson_num, url):
     if not is_valid_codetree_url(url):
         print("Error: Clipboard does not contain a valid CodeTree URL")
         sys.exit(1)
@@ -32,7 +32,7 @@ def create_java_class(trail_num, url):
         return
     
     # Define the package path and directory
-    package_name = f"org.dukcode.ps.codetree.trail{trail_num}"
+    package_name = f"org.dukcode.ps.codetree.trail{trail_num}.lesson{lesson_num}"
     package_dir = os.path.join("src", "main", "java", *package_name.split("."))
     
     # Ensure the directory exists
@@ -67,14 +67,15 @@ def create_java_class(trail_num, url):
     print(f"Created Java class at: {java_file}")
 
 def main():
-    if len(sys.argv) != 2:
-        print("Usage: python program.py <trail_number>")
+    if len(sys.argv) != 3:
+        print("Usage: python program.py <trail_number> <lesson_number>")
         sys.exit(1)
     
     trail_num = sys.argv[1]
+    lesson_num = sys.argv[2]
     url = pyperclip.paste().strip()
     
-    create_java_class(trail_num, url)
+    create_java_class(trail_num, lesson_num, url)
 
 if __name__ == "__main__":
     main() 
