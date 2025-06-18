@@ -21,3 +21,4 @@
 - 정렬 후 arr범위 잡아서 k넘는지 확인하기 vs `[frIn, frIn + k]`범위 잡아서 전체 배열 검사하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/IntroMaximumDifferenceInNumbers.java)
 - val을 for문돌린건지, 배열을 for문에 돌린건지에 따라 시간 복잡도 판단해야함 (2가지 방법 있음 인지하기!) : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/IntroGreatJump.java)
 - 반복문 개선가능한지 고민해보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/ChallengeRestoreInitialSequence.java)
+- 정확히 폭탄이 터지는 갯수, 그리고 언제 카운트 업데이트할건지 조건 잘 생각해야함 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/ChallengeStrangeBomb3.java)
