@@ -22,3 +22,4 @@
 - val을 for문돌린건지, 배열을 for문에 돌린건지에 따라 시간 복잡도 판단해야함 (2가지 방법 있음 인지하기!) : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/IntroGreatJump.java)
 - 반복문 개선가능한지 고민해보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/ChallengeRestoreInitialSequence.java)
 - 정확히 폭탄이 터지는 갯수, 그리고 언제 카운트 업데이트할건지 조건 잘 생각해야함 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/ChallengeStrangeBomb3.java)
+- 정렬을 가장 먼저 생각했음. 높이를 범위로 잡아서 루프돌리는 방법이 생각이 잘 안났음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/ChallengeHillCutting.java)
