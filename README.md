@@ -82,3 +82,10 @@
   - 조건 놓치기 쉬움 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/ChallengeMaximumHScore2.java)
 
   - 범위를 먼저 잡고 루프도는게 빠름(생각하기 어려움...) : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/TestDifferenceBetweenMaximumAndMinimum.java)
+
+---
+
+### Chapter 9. 케이스별로 나누기
+
+- **Lesson 01. 겹치는 경우**
+  - n개의 선분이 모두 겹치는 지점이 있는지 판단하기. 뭔가 파란눈 마을 문제 같음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter09/lesson01/ChallengeOverlappingLineSegments.java)
