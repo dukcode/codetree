@@ -23,3 +23,4 @@
 - 반복문 개선가능한지 고민해보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/ChallengeRestoreInitialSequence.java)
 - 정확히 폭탄이 터지는 갯수, 그리고 언제 카운트 업데이트할건지 조건 잘 생각해야함 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/ChallengeStrangeBomb3.java)
 - 정렬을 가장 먼저 생각했음. 높이를 범위로 잡아서 루프돌리는 방법이 생각이 잘 안났음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/ChallengeHillCutting.java)
+- ⭐️루프 돌리는 주체를 잘생각하기 (시간복잡도 고려하면 99C50은 불가능함을 알 수 있음) : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/ChallengeDivideSectionsWell.java)
