@@ -89,3 +89,5 @@
 
 - **Lesson 01. 겹치는 경우**
   - n개의 선분이 모두 겹치는 지점이 있는지 판단하기. 뭔가 파란눈 마을 문제 같음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter09/lesson01/ChallengeOverlappingLineSegments.java)
+- **Lesson 02. 일어난 상황에 대한 추론**
+  - ⭐️카톡 단톡방 안읽은 사람 추론 문제(나올 가능성 높을 듯) : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter09/lesson02/ChallengeCodingTalk.java)
