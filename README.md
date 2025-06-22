@@ -92,3 +92,5 @@
 - **Lesson 02. 일어난 상황에 대한 추론**
   - ⭐️카톡 단톡방 안읽은 사람 추론 문제(나올 가능성 높을 듯) : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter09/lesson02/ChallengeCodingTalk.java)
   - 이분탐색 말고도 구현으로 푸는 방법 익히기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter09/lesson02/TestXRun.java)
+- **Lesson 03. 좋은 전략을 추려내기**
+  - 최대거리만 고려해서 효율적으로 다시 짜보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter09/lesson03/ChallengeStudyCafeKeepingDistance2.java)
