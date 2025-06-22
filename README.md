@@ -94,3 +94,8 @@
   - 이분탐색 말고도 구현으로 푸는 방법 익히기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter09/lesson02/TestXRun.java)
 - **Lesson 03. 좋은 전략을 추려내기**
   - 최대거리만 고려해서 효율적으로 다시 짜보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter09/lesson03/ChallengeStudyCafeKeepingDistance2.java)
+
+### Chap 10. Ad-Hoc
+
+- **Lesson 01. 지극히 최선인 전략이 확실히 정해지는 경우**
+  - 배열 한바퀴 돌면서 배열 자르기 while문이 더 나음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter10/lesson01/IntroMinimumNumberOfWifi.java)  
