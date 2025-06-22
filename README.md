@@ -100,4 +100,5 @@
 - **Lesson 01. 지극히 최선인 전략이 확실히 정해지는 경우**
   - 배열 한바퀴 돌면서 배열 자르기 while문이 더 나음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter10/lesson01/IntroMinimumNumberOfWifi.java)  
   - 수식으로 풀려고 하니까 규칙찾기가 어려웠음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter10/lesson01/ChallengeOddEvenBundle.java)
-  - 생각도 안남 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter10/lesson01/ChallengeReorderSequence.java)
+  - 처음엔 생각도 안남(그리디) : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter10/lesson01/ChallengeReorderSequence.java)
+  - 그리디 증명 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter10/lesson01/TestGroupOfPairs2.java)
