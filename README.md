@@ -95,6 +95,8 @@
 - **Lesson 03. 좋은 전략을 추려내기**
   - 최대거리만 고려해서 효율적으로 다시 짜보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter09/lesson03/ChallengeStudyCafeKeepingDistance2.java)
 
+---
+
 ### Chap 10. Ad-Hoc
 
 - **Lesson 01. 지극히 최선인 전략이 확실히 정해지는 경우**
@@ -102,3 +104,16 @@
   - 수식으로 풀려고 하니까 규칙찾기가 어려웠음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter10/lesson01/ChallengeOddEvenBundle.java)
   - 처음엔 생각도 안남(그리디) : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter10/lesson01/ChallengeReorderSequence.java)
   - 그리디 증명 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter10/lesson01/TestGroupOfPairs2.java)
+
+---
+
+## Trail 3 : Novice High
+
+---
+
+### Chapter 3. 정렬
+
+- **Lesson 03. 삽입 정렬**
+  - 삽입정렬 구현.. idx 주의 : [LINK](src/main/java/org/dukcode/ps/codetree/trail03/chapter03/lesson03/ChallengeImplementInsertionSort.java)
+
+---
