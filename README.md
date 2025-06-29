@@ -115,5 +115,7 @@
 
 - **Lesson 03. 삽입 정렬**
   - 삽입정렬 구현.. idx 주의 : [LINK](src/main/java/org/dukcode/ps/codetree/trail03/chapter03/lesson03/ChallengeImplementInsertionSort.java)
+- **Lesson 04. 기수 정렬**
+  - 기수정렬 구현.. : [LINK](src/main/java/org/dukcode/ps/codetree/trail03/chapter03/lesson04/ChallengeImplementRadixSort.java)
 
 ---
