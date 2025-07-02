@@ -119,4 +119,5 @@
   - 기수정렬 구현.. : [LINK](src/main/java/org/dukcode/ps/codetree/trail03/chapter03/lesson04/ChallengeImplementRadixSort.java)
 - **Lesson 07. 퀵 정렬**
   - 퀵 정렬 구현.. (partition 방법, base case, 3개중 중앙값 찾기) : [LINK](src/main/java/org/dukcode/ps/codetree/trail03/chapter03/lesson07/ChallengeImplementQuickSort.java)
----
+- **Lesson 08. 힙 정렬**
+  - 힙 정렬 구현.. : [LINK](src/main/java/org/dukcode/ps/codetree/trail03/chapter03/lesson08/ChallengeImplementHeapSort.java)
