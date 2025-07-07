@@ -121,3 +121,14 @@
   - 퀵 정렬 구현.. (partition 방법, base case, 3개중 중앙값 찾기) : [LINK](src/main/java/org/dukcode/ps/codetree/trail03/chapter03/lesson07/ChallengeImplementQuickSort.java)
 - **Lesson 08. 힙 정렬**
   - 힙 정렬 구현.. : [LINK](src/main/java/org/dukcode/ps/codetree/trail03/chapter03/lesson08/ChallengeImplementHeapSort.java)
+
+---
+
+## Trail 2 : Novice Mid
+
+---
+
+### Chapter 1. Simulation
+
+- **Lesson 02. 격자 안에서 밀고 당기기**
+  - rotate 구현 -> for문 순서 중요 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson02/ChallengeThe2dWindBlows.java)
