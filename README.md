@@ -131,4 +131,4 @@
 ### Chapter 1. Simulation
 
 - **Lesson 02. 격자 안에서 밀고 당기기**
-  - rotate 구현 -> for문 순서 중요 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson02/ChallengeThe2dWindBlows.java)
+  - rotate 구현 -> for문 순서 중요 or O(n) 공간복잡도로 옮기기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson02/ChallengeThe2dWindBlows.java)
