@@ -135,3 +135,4 @@
 
 - **Lesson 03. 격자 안에서 터지고 떨어지는 경우**
   - 2048 로직(keep)을 이용한, 2차원 배열 회전 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson03/ChallengeOneTrialOf2048Game.java)
+  - 문제 잘읽기.. : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson03/ChallengeThe2dBombGame.java)
