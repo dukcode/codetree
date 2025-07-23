@@ -140,3 +140,4 @@
 - **Lesson 04. 격자 안에서 단일 객체를 이동**
   - 오른쪽 벽 짚고 탈출 구현 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson04/ChallengeEscapeMazeWithWallFollowing.java)
   - 주사위 앞 위 오 3개로만 구현해보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson04/ChallengeRollADice.java)
+  - snake 구현 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson04/ChallengeSnakeLovesApples.java)
