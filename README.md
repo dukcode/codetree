@@ -141,3 +141,6 @@
   - 오른쪽 벽 짚고 탈출 구현 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson04/ChallengeEscapeMazeWithWallFollowing.java)
   - 주사위 앞 위 오 3개로만 구현해보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson04/ChallengeRollADice.java)
   - snake 구현 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson04/ChallengeSnakeLovesApples.java)
+
+- **Lesson 05. 격자 안에서 여러 객체를 이동**
+  - 여러개가 만나 터지는 경우를 고려할 수 있는 힘, 시간복잡도 계산하고 개선해보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson05/ChallengeCollisionExperimentWithWall.java)
