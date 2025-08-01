@@ -150,3 +150,8 @@
 
 - **Lesson 01. K개 중 하나를 N번 선택하기(Simple)
   - Backtracking, DP, Greedy 3가지 풀이 존재 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter02/lesson01/ChallengeSelectSegmentsWithoutOverlap.java)
+  - Backtacking으로 풀면 $O((N + M) * 2^M)$ : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter02/lesson01/ChallengeLadderGame.java)
+    - Inversion이란, 배열에서 순서가 뒤바뀐 원소의 쌍을 의미합니다. 즉, 배열 A에서 인덱스 `i < j` 이지만, 값은 `A[i] > A[j]` 인 경우 `(A[i], A[j])`를 하나의 Inversion이라고 합니다.
+    - 즉 Inversion의 갯수를 세서 구할 수 있음.
+      - Brute Force : $O(N^2)$
+      - Divide & Conquer : $O(NlogN)$
