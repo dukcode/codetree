@@ -155,3 +155,5 @@
     - 즉 Inversion의 갯수를 세서 구할 수 있음.
       - Brute Force : $O(N^2)$
       - Divide & Conquer : $O(NlogN)$
+- **Lesson 02. K개 중 하나를 N번 선택하기(Conditional)**
+  - 함수가 `void`인지 `boolean`인지 판단할 줄 알아야함.: [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter02/lesson02/ChallengeFindMinOfPossibleSeries.java)
