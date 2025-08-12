@@ -156,4 +156,9 @@
       - Brute Force : $O(N^2)$
       - Divide & Conquer : $O(NlogN)$
 - **Lesson 02. K개 중 하나를 N번 선택하기(Conditional)**
-  - 함수가 `void`인지 `boolean`인지 판단할 줄 알아야함.: [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter02/lesson02/ChallengeFindMinOfPossibleSeries.java)
+  - 함수가 `void`인지 `boolean`인지 판단할 줄 알아야함 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter02/lesson02/ChallengeFindMinOfPossibleSeries.java)
+
+### Chapter 3. DFS
+
+- **Lesson 01.**
+  - 탬플릿 외우기(`visited[here]`체크 위치!) : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter03/lesson01/IntroGraphTraversal.java)
