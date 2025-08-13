@@ -162,3 +162,4 @@
 
 - **Lesson 01.**
   - 탬플릿 외우기(`visited[here]`체크 위치!) : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter03/lesson01/IntroGraphTraversal.java)
+  - 재귀/Stack 두가지로 풀 줄 알기, visited/discovered 차이 알기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter03/lesson01/IntroDetermineEscapablenessWith2Ways.java)
