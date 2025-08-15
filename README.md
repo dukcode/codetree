@@ -166,3 +166,7 @@
   - 탬플릿 외우기(`visited[here]`체크 위치!) : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter03/lesson01/IntroGraphTraversal.java)
   - 재귀/Stack 두가지로 풀 줄 알기, visited/discovered 차이 알기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter03/lesson01/IntroDetermineEscapablenessWith2Ways.java)
   - 문제 조건 잘보기.. TC로 엣지케이스 추가해보기 습관 들이기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter03/lesson01/ChallengeComfortZone.java) 
+
+### Chapter 4. BFS
+
+- BFS 여러 시작점 동시 시작 : `Queue`에 시작점 넣어놓기
