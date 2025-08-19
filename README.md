@@ -162,7 +162,7 @@
 
 `discovered`의 의미 :  `discovered`는 "방문했거나 방문할 예정인 길"이라는 본래의 의미임. 벽까지 `discovered`에 포함되면 잃고 "**한 번이라도 고려해 본 모든 좌표**"라는 애매한 의미가 됨.([LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter04/lesson01/IntroDetermineEscapablenessWith4Ways.java)같이 짜면 안됨)
 
-- **Lesson 01.**
+- **Lesson 01. DFS**
   - 탬플릿 외우기(`visited[here]`체크 위치!) : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter03/lesson01/IntroGraphTraversal.java)
   - 재귀/Stack 두가지로 풀 줄 알기, visited/discovered 차이 알기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter03/lesson01/IntroDetermineEscapablenessWith2Ways.java)
   - 문제 조건 잘보기.. TC로 엣지케이스 추가해보기 습관 들이기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter03/lesson01/ChallengeComfortZone.java) 
@@ -170,3 +170,8 @@
 ### Chapter 4. BFS
 
 - BFS 여러 시작점 동시 시작 : `Queue`에 시작점 넣어놓기
+
+### Chapter 5. DP
+
+- **Lesson 01. subproblem을 그대로 합치면 되는 DP**
+  - 특이한 점화식 유도, 모듈러연산 음수일 때 하나 더해주기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson01/ChallengeRectangleFill3.java)
