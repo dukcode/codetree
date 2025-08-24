@@ -178,3 +178,4 @@
   - 특이한 점화식 유도 (카탈란 수) : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson01/ChallengeNumberOfUniqueBst.java)
 - **Lesson 02. 격자 안에서 한 칸씩 전진하는 DP**
   - Tabluation으로 풀 수 있음? 순서를 강제하는것이 핵심 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson02/ChallengeLisOnTheIntegerGrid.java)
+  - `cache`를 어떻게 잡을지 생각하기. `cache`가 계산완료 판단 애매할 때 `calculated` 사용하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson02/ChallengeMinimumDifferenceOnTheIntegerGrid2.java)
