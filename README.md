@@ -176,3 +176,5 @@
 - **Lesson 01. subproblem을 그대로 합치면 되는 DP**
   - 특이한 점화식 유도, 모듈러연산 음수일 때 하나 더해주기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson01/ChallengeRectangleFill3.java)
   - 특이한 점화식 유도 (카탈란 수) : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson01/ChallengeNumberOfUniqueBst.java)
+- **Lesson 02. 격자 안에서 한 칸씩 전진하는 DP**
+  - Tabluation으로 풀 수 있음? 순서를 강제하는것이 핵심 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson02/ChallengeLisOnTheIntegerGrid.java)
