@@ -182,3 +182,4 @@
 - **Lesson 04. 아이템을 적절히 고르는 문제**
   - Top Down 어떻게 푸는지 모르겠음. `cache` 조건 설정하는 연습 해야함. : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/IntroTheSumOfTheSubsequencesIsM.java)
   - 2차원 DP로 풀면 비효율적. 1차원 DP로 풀어보고 비효율적인 이유 분석하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeMaxCoinChange.java)
+  - 3가지 방법 으로 풀어보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeKnapsack.java)
