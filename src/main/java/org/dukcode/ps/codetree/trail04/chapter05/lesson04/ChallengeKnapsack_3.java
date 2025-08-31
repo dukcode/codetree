@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
  * @see <a
  * href="https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-knapsack/description">LINK</a>
  */
-public class ChallengeKnapsack3 {
+public class ChallengeKnapsack_3 {
 
   private static BufferedReader br;
   private static BufferedWriter bw;

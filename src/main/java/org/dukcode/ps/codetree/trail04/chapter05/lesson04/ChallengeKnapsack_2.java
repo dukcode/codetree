@@ -5,24 +5,22 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
  * @see <a
- * href="https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-knapsack-2/description">LINK</a>
+ * href="https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-knapsack/description">LINK</a>
  */
-public class ChallengeKnapsack2 {
+public class ChallengeKnapsack_2 {
 
   private static BufferedReader br;
   private static BufferedWriter bw;
   private static StringTokenizer st;
+
   private static int n;
   private static int m;
   private static int[] weights;
   private static int[] values;
-
-  private static int[] cache;
 
   public static void main(String[] args) throws IOException {
     br = new BufferedReader(new InputStreamReader(System.in));
@@ -47,25 +45,24 @@ public class ChallengeKnapsack2 {
   }
 
   private static int solve() {
-    cache = new int[m + 1];
-    Arrays.fill(cache, -1);
-    return solve(m);
-  }
+    int[][] dp = new int[n + 1][m + 1];
 
-  private static int solve(int leftWeight) {
-    if (cache[leftWeight] != -1) {
-      return cache[leftWeight];
+    for (int idx = 0; idx < n; ++idx) {
+      for (int w = 0; w <= m; ++w) {
+        dp[idx + 1][w] = dp[idx][w];
+
+        if (w - weights[idx] >= 0) {
+          dp[idx + 1][w] = Math.max(dp[idx + 1][w], dp[idx][w - weights[idx]] + values[idx]);
+        }
+      }
+
     }
 
     int ret = 0;
-    for (int idx = 0; idx < n; idx++) {
-      if (leftWeight - weights[idx] < 0) {
-        continue;
-      }
-
-      ret = Math.max(ret, solve(leftWeight - weights[idx]) + values[idx]);
+    for (int w = 0; w <= m; ++w) {
+      ret = Math.max(ret, dp[n][w]);
     }
 
-    return cache[leftWeight] = ret;
+    return ret;
   }
 }
