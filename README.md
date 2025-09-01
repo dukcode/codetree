@@ -191,3 +191,4 @@
 
 - **Lesson 01. 원하는 State를 정의하여 한 칸씩 나아가는 DP**
   - **제발 경계조건 생각해!!!!!, 부분 유일 결정에 유의해서 `cache` 작성함.** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson01/ChallengeRightEquality.java)
+  - 메서드 설계 어려움.. : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson01/ChallengeSelectMSections.java)
