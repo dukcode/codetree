@@ -184,3 +184,4 @@
   - 2차원 DP로 풀면 비효율적. 1차원 DP로 풀어보고 비효율적인 이유 분석하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeMaxCoinChange.java)
   - 3가지 방법 으로 풀어보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeKnapsack.java)
   - **DP는 부분문제에서 결과가 유일결정되어야함. 이걸 지키는지 마는지가 곧 DP 실력** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeMaximumSumPartition.java)
+  - **`cache` 사이즈 너무 클 때 상태 공간 뒤집기!!!!, bottom-up으로도 풀어보기** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeGainExpQuickly.java)
