@@ -195,3 +195,6 @@
   - 넘 어렵다.. 왜 이건 앞의 정보를 들고와도 될까?: [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson01/Challenge369GameChallenge.java)
     - 아마 앞에서부터 결정해야 `n`보다 작은 수들 처리할 수 있음 + 상태에 따른 결과가 과거의 루트와 상관 없이 유일 결정되기 때문에
     - 상태를 잘 정의하자. -> 앞의 정보 가져와도 상관 없음 그냥 상태에 따라서 유일 결정되면 됨! 그래도 햇갈리니까 웬만하면 앞의 정보 안가져오게 짤 수 있으면 짜자..
+
+- **Lesson 02. 연속적이지만 직전 상황에 영향을 받는 DP**
+  - 앞의 정보를 어쩔 수 없이 가져와야함. 판단력 키우기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson02/IntroSelectProperClothes.java)
