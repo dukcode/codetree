@@ -179,9 +179,15 @@
 - **Lesson 02. 격자 안에서 한 칸씩 전진하는 DP**
   - Tabluation으로 풀 수 있음? 순서를 강제하는것이 핵심 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson02/ChallengeLisOnTheIntegerGrid.java)
   - `cache`를 어떻게 잡을지 생각하기. `cache`가 계산완료 판단 애매할 때 `calculated` 사용하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson02/ChallengeMinimumDifferenceOnTheIntegerGrid2.java)
+
 - **Lesson 04. 아이템을 적절히 고르는 문제**
   - Top Down 어떻게 푸는지 모르겠음. `cache` 조건 설정하는 연습 해야함. : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/IntroTheSumOfTheSubsequencesIsM.java)
   - 2차원 DP로 풀면 비효율적. 1차원 DP로 풀어보고 비효율적인 이유 분석하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeMaxCoinChange.java)
   - 3가지 방법 으로 풀어보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeKnapsack.java)
   - **DP는 부분문제에서 결과가 유일결정되어야함. 이걸 지키는지 마는지가 곧 DP 실력** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeMaximumSumPartition.java)
   - **`cache` 사이즈 너무 클 때 상태 공간 뒤집기!!!!, bottom-up으로도 풀어보기** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeGainExpQuickly.java)
+
+### Chapter 6. DP II
+
+- **Lesson 01. 원하는 State를 정의하여 한 칸씩 나아가는 DP**
+  - **제발 경계조건 생각해!!!!!, 부분 유일 결정에 유의해서 `cache` 작성함.** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson01/ChallengeRightEquality.java)
