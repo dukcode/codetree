@@ -198,3 +198,4 @@
 
 - **Lesson 02. 연속적이지만 직전 상황에 영향을 받는 DP**
   - 앞의 정보를 어쩔 수 없이 가져와야함. 판단력 키우기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson02/IntroSelectProperClothes.java)
+  - 문제 잘 읽기, 엣지케이스 생각 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson02/ChallengeCollectCrystals.java)
