@@ -200,3 +200,5 @@
   - 앞의 정보를 어쩔 수 없이 가져와야함. 판단력 키우기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson02/IntroSelectProperClothes.java)
   - 문제 잘 읽기, 엣지케이스 생각 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson02/ChallengeCollectCrystals.java)
   - 쉽게 풀었는데 좀 재미있었음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson02/ChallengeRotationMagicCircle.java)
+  - **어려움!!!! 빨리감기 문제, 자연수 분할 활용** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson02/ChallengeNumberPuzzle.java)
+    - 자연수 분할 DP : 1이 포함된 경우, 1이 포함안된경우(다 1씩 까면 됨)
