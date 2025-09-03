@@ -202,3 +202,7 @@
   - 쉽게 풀었는데 좀 재미있었음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson02/ChallengeRotationMagicCircle.java)
   - **어려움!!!! 빨리감기 문제, 자연수 분할 활용** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson02/ChallengeNumberPuzzle.java)
     - 자연수 분할 DP : 1이 포함된 경우, 1이 포함안된경우(다 1씩 까면 됨)
+
+- **Lesson 03. String Matching**
+  - 최대 LCS 거리, 전형적인 문제, 기억하자 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson03/IntroLongestCommonSequence.java)
+  - 최소 편집 거리, 전형적일지도? : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson03/ChallengeEditDistance.java)
