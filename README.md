@@ -145,6 +145,7 @@
 - **Lesson 05. 격자 안에서 여러 객체를 이동**
   - 여러개가 만나 터지는 경우를 고려할 수 있는 힘, 시간복잡도 계산하고 개선해보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson05/ChallengeCollisionExperimentWithWall.java)
   - 구현하는데 오래걸림 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson05/ChallengeSequentialMovementOfStackedNumbers.java)
+  - **역대 가장 더러운 구현** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson05/ChallengeCollisionExperimentWithoutWall.java)
 
 ### Chapter 2. Backtracking
 

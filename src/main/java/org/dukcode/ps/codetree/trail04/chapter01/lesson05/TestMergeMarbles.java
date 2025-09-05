@@ -227,4 +227,5 @@ public class TestMergeMarbles {
       return Objects.hash(y, x);
     }
   }
+
 }
