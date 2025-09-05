@@ -207,3 +207,4 @@
   - 최대 LCS 거리, 전형적인 문제, 기억하자 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson03/IntroLongestCommonSequence.java)
   - 최소 편집 거리, 전형적일지도? : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson03/ChallengeEditDistance.java)
   - 복구 로직 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson03/ChallengeLongestCommonSequence2.java)
+  - **필수로 다시 풀기!** `solve()`를 재귀로 짜면 메모리 터짐.. DP 두번 쓰는 아이디어. 외우기..? : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson03/ChallengeLongestCommonSequence3.java)
