@@ -210,3 +210,14 @@
   - 복구 로직 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson03/ChallengeLongestCommonSequence2.java)
   - **필수로 다시 풀기!** `solve()`를 재귀로 짜면 메모리 터짐.. DP 두번 쓰는 아이디어. 외우기..? : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson03/ChallengeLongestCommonSequence3.java)
   - 조건만 조금 달라졌는데 신기했음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter06/lesson03/TestShortestCommonSupersubsequence.java)
+
+---
+
+## Trail 5 : Intermediate Mid
+
+---
+
+### Chapter 1. 중급 자료구조
+
+- **Lesson 01. HashMap**
+  - 입력 받으면서도 처리할 수 있음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson01/ChallengeSumOfTwoNum.java)
