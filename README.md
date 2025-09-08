@@ -231,6 +231,7 @@
 
 - **Lesson 01. HashMap**
   - 입력 받으면서도 처리할 수 있음. 같은 숫자 더하면 예외상황 생기는데 눈치 챙기기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson01/ChallengeSumOfTwoNum.java)
+  - $O(N^4)$를 $O(N^2)$로 줄이기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson01/ChallengeTheSumOfTheElementsIs0.java)
 
 ---
 
