@@ -19,7 +19,7 @@ def extract_class_name_from_url(url):
     return None
 
 def is_valid_codetree_url(url):
-    return url.startswith('https://www.codetree.ai/')
+    return url.startswith('https://www.codetree.ai/') and url.endswith('/description')
 
 def format_number(num):
     # Convert number to string and pad with leading zeros
@@ -61,10 +61,10 @@ def create_java_class(trail_num, chapter_num, lesson_num, url):
         f.write("  private static StringTokenizer st;\n\n")
         f.write("  public static void main(String[] args) throws IOException {\n")
         f.write("    br = new BufferedReader(new InputStreamReader(System.in));\n")
-        f.write("    bw = new BufferedWriter(new OutputStreamWriter(System.out));\n\n")
+        f.write("    bw = new BufferedWriter(new OutputStreamWriter(System.out));\n")
         f.write("    \n\n")
         f.write("    br.close();\n")
-        f.write("    bw.close();\n\n")
+        f.write("    bw.close();\n")
         f.write("  }\n")
         f.write("}\n")
     
