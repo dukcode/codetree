@@ -147,6 +147,8 @@
   - 구현하는데 오래걸림 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson05/ChallengeSequentialMovementOfStackedNumbers.java)
   - **역대 가장 더러운 구현** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson05/ChallengeCollisionExperimentWithoutWall.java)
 
+---
+
 ### Chapter 2. Backtracking
 
 - **Lesson 01. K개 중 하나를 N번 선택하기(Simple)
@@ -159,6 +161,8 @@
 - **Lesson 02. K개 중 하나를 N번 선택하기(Conditional)**
   - 함수가 `void`인지 `boolean`인지 판단할 줄 알아야함 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter02/lesson02/ChallengeFindMinOfPossibleSeries.java)
 
+---
+
 ### Chapter 3. DFS
 
 `discovered`의 의미 :  `discovered`는 "방문했거나 방문할 예정인 길"이라는 본래의 의미임. 벽까지 `discovered`에 포함되면 잃고 "**한 번이라도 고려해 본 모든 좌표**"라는 애매한 의미가 됨.([LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter04/lesson01/IntroDetermineEscapablenessWith4Ways.java)같이 짜면 안됨)
@@ -168,9 +172,13 @@
   - 재귀/Stack 두가지로 풀 줄 알기, visited/discovered 차이 알기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter03/lesson01/IntroDetermineEscapablenessWith2Ways.java)
   - 문제 조건 잘보기.. TC로 엣지케이스 추가해보기 습관 들이기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter03/lesson01/ChallengeComfortZone.java) 
 
+---
+
 ### Chapter 4. BFS
 
 - BFS 여러 시작점 동시 시작 : `Queue`에 시작점 넣어놓기
+
+---
 
 ### Chapter 5. DP
 
@@ -187,6 +195,8 @@
   - 3가지 방법 으로 풀어보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeKnapsack.java)
   - **DP는 부분문제에서 결과가 유일결정되어야함. 이걸 지키는지 마는지가 곧 DP 실력** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeMaximumSumPartition.java)
   - **`cache` 사이즈 너무 클 때 상태 공간 뒤집기!!!!, bottom-up으로도 풀어보기** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeGainExpQuickly.java)
+
+---
 
 ### Chapter 6. DP II
 
@@ -220,4 +230,7 @@
 ### Chapter 1. 중급 자료구조
 
 - **Lesson 01. HashMap**
-  - 입력 받으면서도 처리할 수 있음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson01/ChallengeSumOfTwoNum.java)
+  - 입력 받으면서도 처리할 수 있음. 같은 숫자 더하면 예외상황 생기는데 눈치 챙기기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson01/ChallengeSumOfTwoNum.java)
+
+---
+
