@@ -237,3 +237,6 @@
 
 - **Lesson 03. HashSet**
   - 확산!!! BFS! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson03/ChallengeInvitationAndNumberTag.java)
+
+- **Lesson 04. TreeSet**
+  - `SortedSet` 계약을 보면 `compareTo` 기준으로 동작하는 것을 알 수 있음. 따라서 `remove`사용 시 `equals` 구현 안해도 되는듯 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson04/ChallengeRemovePoint.java)
