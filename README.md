@@ -245,3 +245,4 @@
 
 - **Lesson 05. Priority Queue**
   - 중앙값 찾기.. 갯수 유지 우선, 어긋난 값 바꿔주기 순서 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson05/ChallengeMedian.java)
+  - `(i, j) -> (i + 1, j), (i, j + 1)`이지만 이렇게 하면 `vis`배열 필요 -> 따라서 후보를 한줄 쫙 놓고 시작하는 방법으로 해결 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson05/ChallengeSumOfKthSmallestPair.java)
