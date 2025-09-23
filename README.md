@@ -261,3 +261,4 @@
   - 챕터 뭔지 몰랐으면 풀 수 있었을까? `TreeSet.subset()`으로 풀려고함.. : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson01/ChallengeKNumbersInARow.java)
   - 직사각형 최소합 $O(N^3)$으로 풀기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson01/ChallengeMaxRectSumInGrid.java)
     - 연속 최대 부분 수열 합 구현 -> **카데인 알고리즘**
+  - 겁먹지말고 바닥부터 시간복잡도 계산!! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson01/ChallengeMoveToNumbersWithStar.java)
