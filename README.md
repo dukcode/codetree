@@ -233,8 +233,6 @@
   - 입력 받으면서도 처리할 수 있음. 같은 숫자 더하면 예외상황 생기는데 눈치 챙기기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson01/ChallengeSumOfTwoNum.java)
   - $O(N^4)$를 $O(N^2)$로 줄이기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson01/ChallengeTheSumOfTheElementsIs0.java)
 
----
-
 - **Lesson 03. HashSet**
   - 확산!!! BFS! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson03/ChallengeInvitationAndNumberTag.java)
 
@@ -252,3 +250,12 @@
 - **Lesson 06. Doubly-LinkedList**
   - `Iterator`연습 문제. 근데 직접구현하는게 문제 의도에 더 맞는듯.. : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson06/IntroLinkedList1.java)
   - **지옥** : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson06/IntroSwitchPositionInArray.java)
+
+---
+
+### Chapter 2. Shorten time Technique
+
+---
+
+- **Lesson 01. Prefix Sum**
+  - 챕터 뭔지 몰랐으면 풀 수 있었을까? `TreeSet.subset()`으로 풀려고함.. : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson01/ChallengeKNumbersInARow.java)
