@@ -248,3 +248,6 @@
   - `(i, j) -> (i + 1, j), (i, j + 1)`이지만 이렇게 하면 `vis`배열 필요 -> 따라서 후보를 한줄 쫙 놓고 시작하는 방법으로 해결 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson05/ChallengeSumOfKthSmallestPair.java)
   - 그냥 깔끔하게 구현 잘해서 넣어봄 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson05/ChallengeAdmissionToTheGardenIsOnAFirstComeFirstServedBasis.java)
   - 오버플로우 계산좀 해라!!!!! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson05/TestTop3SmallestNumber.java)
+
+- **Lesson 06. Doubly-LinkedList**
+  - `Iterator`연습 문제. 근데 직접구현하는게 문제 의도에 더 맞는듯.. : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson06/IntroLinkedList1.java)
