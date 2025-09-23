@@ -1,22 +1,18 @@
-# CodeTree 문제 풀이
-
-## Trail 2 : Novice Mid
+# CodeTree Main 풀이
 
 ---
+
+## Trail : Novice Mid
 
 ### Chapter 1. 함수
 
 - **Lesson 01. 값을 반환하는 함수**
   - 최대공약수 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter01/lesson01/ChallengeFindTheGreatestCommonDivisor.java)
 
----
-
 ### Chapter 2. 재귀함수
 
 - **Lesson 01. 값을 반환하지 않는 재귀함수**
   - 앞 뒤 재귀 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter02/lesson01/TestStarOutputWithRecursiveFunction2.java)
-
----
 
 ### Chapter 3. 정렬
 
@@ -24,8 +20,6 @@
   - 그리디 증명 해보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter03/lesson01/ChallengeGroupOfPairs.java)
     - 주어진 배열의 최댓값(=M)을 어떤 값과 그룹으로 묶어주는 것이 가장 좋을까요? 아마도 최솟값(=m)이라고 추측할 수 있을 것 입니다.
     - 만약 M과 m이 다른 그룹에 배치되면 [M, a], [m, b]로 묶이는데, [M, m], [a, b]로 바꾸면 더 작은 최대값을 만들 수 있음.
-
----
 
 ### Chapter 4. 시뮬레이션 I
 
@@ -37,14 +31,10 @@
 - **Lesson 04. 사각형 칠하기**
   - 좌표 주어지고 넓이 구할 때 끝점 빼야함 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter04/lesson04/IntroTotalWidthOfARectangle2.java)
 
----
-
 ### Chapter 5. 시뮬레이션 II
 
 - **Lesson 03. dx dy technique**
   - 복잡한 시뮬레이션 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter05/lesson03/ChallengeShootALaserInTheMirror2.java)
-
----
 
 ### Chapter 6. 완전탐색 I
 
@@ -52,8 +42,6 @@
   - `Set`으로 처리하면 같은 숫자들 가지고 있는지 판단 못함 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter06/lesson02/ChallengeBeautifulSequence2.java)
 - **Lesson 03. 자리 마다 숫자를 정하는 완전탐색**
   - 자리마다 숫자를 정하는 완전탐색 - 어렵게 풀려고 하는 경향 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter06/lesson03)
-
----
 
 ### Chapter 7. 완전탐색 II
 
@@ -64,8 +52,6 @@
 
 - **Lesson 02. 값을 기준으로 완전탐색**
   - 최소 범위 미만 최대 범위 초과 고려해야함!! : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter07/lesson02/IntroAdjustingTheTemperatureOfTheDataCenter2.java)
-
----
 
 ### Chapter 8. 완전탐색 III
 
@@ -83,8 +69,6 @@
 
   - 범위를 먼저 잡고 루프도는게 빠름(생각하기 어려움...) : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter08/lesson02/TestDifferenceBetweenMaximumAndMinimum.java)
 
----
-
 ### Chapter 9. 케이스별로 나누기
 
 - **Lesson 01. 겹치는 경우**
@@ -94,8 +78,6 @@
   - 이분탐색 말고도 구현으로 푸는 방법 익히기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter09/lesson02/TestXRun.java)
 - **Lesson 03. 좋은 전략을 추려내기**
   - 최대거리만 고려해서 효율적으로 다시 짜보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail02/chapter09/lesson03/ChallengeStudyCafeKeepingDistance2.java)
-
----
 
 ### Chap 10. Ad-Hoc
 
@@ -108,8 +90,6 @@
 ---
 
 ## Trail 3 : Novice High
-
----
 
 ### Chapter 3. 정렬
 
@@ -125,8 +105,6 @@
 ---
 
 ## Trail 2 : Novice Mid
-
----
 
 ### Chapter 1. Simulation
 
@@ -147,8 +125,6 @@
   - 구현하는데 오래걸림 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson05/ChallengeSequentialMovementOfStackedNumbers.java)
   - **역대 가장 더러운 구현** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter01/lesson05/ChallengeCollisionExperimentWithoutWall.java)
 
----
-
 ### Chapter 2. Backtracking
 
 - **Lesson 01. K개 중 하나를 N번 선택하기(Simple)
@@ -161,8 +137,6 @@
 - **Lesson 02. K개 중 하나를 N번 선택하기(Conditional)**
   - 함수가 `void`인지 `boolean`인지 판단할 줄 알아야함 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter02/lesson02/ChallengeFindMinOfPossibleSeries.java)
 
----
-
 ### Chapter 3. DFS
 
 `discovered`의 의미 :  `discovered`는 "방문했거나 방문할 예정인 길"이라는 본래의 의미임. 벽까지 `discovered`에 포함되면 잃고 "**한 번이라도 고려해 본 모든 좌표**"라는 애매한 의미가 됨.([LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter04/lesson01/IntroDetermineEscapablenessWith4Ways.java)같이 짜면 안됨)
@@ -172,13 +146,9 @@
   - 재귀/Stack 두가지로 풀 줄 알기, visited/discovered 차이 알기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter03/lesson01/IntroDetermineEscapablenessWith2Ways.java)
   - 문제 조건 잘보기.. TC로 엣지케이스 추가해보기 습관 들이기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter03/lesson01/ChallengeComfortZone.java) 
 
----
-
 ### Chapter 4. BFS
 
 - BFS 여러 시작점 동시 시작 : `Queue`에 시작점 넣어놓기
-
----
 
 ### Chapter 5. DP
 
@@ -195,8 +165,6 @@
   - 3가지 방법 으로 풀어보기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeKnapsack.java)
   - **DP는 부분문제에서 결과가 유일결정되어야함. 이걸 지키는지 마는지가 곧 DP 실력** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeMaximumSumPartition.java)
   - **`cache` 사이즈 너무 클 때 상태 공간 뒤집기!!!!, bottom-up으로도 풀어보기** : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson04/ChallengeGainExpQuickly.java)
-
----
 
 ### Chapter 6. DP II
 
@@ -225,8 +193,6 @@
 
 ## Trail 5 : Intermediate Mid
 
----
-
 ### Chapter 1. 중급 자료구조
 
 - **Lesson 01. HashMap**
@@ -251,14 +217,14 @@
   - `Iterator`연습 문제. 근데 직접구현하는게 문제 의도에 더 맞는듯.. : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson06/IntroLinkedList1.java)
   - **지옥** : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson06/IntroSwitchPositionInArray.java)
 
----
-
 ### Chapter 2. Shorten time Technique
-
----
 
 - **Lesson 01. Prefix Sum**
   - 챕터 뭔지 몰랐으면 풀 수 있었을까? `TreeSet.subset()`으로 풀려고함.. : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson01/ChallengeKNumbersInARow.java)
   - 직사각형 최소합 $O(N^3)$으로 풀기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson01/ChallengeMaxRectSumInGrid.java)
     - 연속 최대 부분 수열 합 구현 -> **카데인 알고리즘**
   - 겁먹지말고 바닥부터 시간복잡도 계산!! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson01/ChallengeMoveToNumbersWithStar.java)
+
+- **Lesson 02. Grid Compression**
+  - 복잡했던 좌표압축.. 공간복잡도 괜찮은지..? 다른 방법 있을듯 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson02/ChallengeCountNumberOfPoints2.java)
+
