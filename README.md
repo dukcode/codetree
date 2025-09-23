@@ -251,3 +251,4 @@
 
 - **Lesson 06. Doubly-LinkedList**
   - `Iterator`연습 문제. 근데 직접구현하는게 문제 의도에 더 맞는듯.. : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson06/IntroLinkedList1.java)
+  - **지옥** : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter01/lesson06/IntroSwitchPositionInArray.java)
