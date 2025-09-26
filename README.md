@@ -230,3 +230,4 @@
 
 - **Lesson 03. LR Technique**
   - 방법 생각이 안남 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson03/ChallengeLineSegmentsThatDoNotOverlap.java)
+  - 챕터명때매 방법 떠오른듯 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson03/ChallengeDivideByEqualSumOfIntervals.java)
