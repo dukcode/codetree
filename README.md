@@ -228,3 +228,5 @@
 - **Lesson 02. Grid Compression**
   - 복잡했던 좌표압축.. 공간복잡도 괜찮은지..? 다른 방법 있을듯 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson02/ChallengeCountNumberOfPoints2.java)
 
+- **Lesson 03. LR Technique**
+  - 방법 생각이 안남 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson03/ChallengeLineSegmentsThatDoNotOverlap.java)
