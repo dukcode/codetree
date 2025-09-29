@@ -234,3 +234,4 @@
 
 - **Lesson 04. +1-1 Technique**
   - 그냥 풀었으면 $O(NR)$로 풀었을듯..? : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson04/IntroSectionWithMaximumOverlap.java)
+  - 방법을 모르겠음. 생각하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson04/ChallengeRemoveTheLineSegmentForTheMaximumLength.java)
