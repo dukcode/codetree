@@ -239,3 +239,6 @@
 - **Lesson 05. 전처리**
   - 방법을 모르겠음.. 숨은 아이디어, 도착가능여부 순차계산 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson05/ChallengeMinimumEnergyCost.java)
   - x를 최대한 반으로 나눈다음 y를 완전탐색으로 결정하려고함. -> greedy 오류 6개에서 x로 나눴을 때 3, 3인 경우 답이 될 수 없음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson05/ChallengeDivideEvenly2.java)
+
+- **Lesson 06. Two Pointer**
+  - 방법 알아두기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson06/IntroDetermineSubsequence.java)
