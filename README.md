@@ -244,3 +244,4 @@
   - 방법 알아두기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson06/IntroDetermineSubsequence.java)
   - 두가지 구현 있다 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson06/ChallengeSumOfTwoIntegers2.java)
   - 그냥 어려움 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson06/ChallengeCandyInTheBasket.java)
+  - 이것도 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson06/ChallengeTheMinimumDifferenceInCoordinateRange.java)
