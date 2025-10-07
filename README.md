@@ -247,3 +247,4 @@
   - 이것도 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson06/ChallengeTheMinimumDifferenceInCoordinateRange.java)
   - 악질 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson06/ChallengeAGroupOfNumbersTiedToSpecificConditions.java)
   - 할만한데 그냥 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson06/ChallengeBothExistSection.java)
+  - 생각해낼 수 있을까? : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson06/ChallengeDeterminePossibilityOfSubsequence.java)
