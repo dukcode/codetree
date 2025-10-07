@@ -249,3 +249,8 @@
   - 할만한데 그냥 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson06/ChallengeBothExistSection.java)
   - 생각해낼 수 있을까? : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson06/ChallengeDeterminePossibilityOfSubsequence.java)
   - 엣지케이스 틀림 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter02/lesson06/TestSubsequenceWithKOrMore1s.java)
+
+### Chapter 3. Parametric Search
+
+- **Lesson 01. 이진탐색**
+  - 표준구현 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson01/IntroNumberOfIntegers.java)
