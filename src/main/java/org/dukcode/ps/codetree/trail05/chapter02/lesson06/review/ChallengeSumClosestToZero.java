@@ -10,30 +10,27 @@ import java.util.StringTokenizer;
 
 /**
  * @see <a
- * href="https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-sum-of-two-integers-2/description">LINK</a>
+ * href="https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-sum-closest-to-zero/description">LINK</a>
  */
-public class ChallengeSumOfTwoIntegers2 {
+public class ChallengeSumClosestToZero {
 
   private static BufferedReader br;
   private static BufferedWriter bw;
   private static StringTokenizer st;
 
   private static int n;
-  private static int k;
-
   private static int[] arr;
 
   public static void main(String[] args) throws IOException {
     br = new BufferedReader(new InputStreamReader(System.in));
     bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-    st = new StringTokenizer(br.readLine());
-    n = Integer.parseInt(st.nextToken());
-    k = Integer.parseInt(st.nextToken());
+    n = Integer.parseInt(br.readLine());
 
     arr = new int[n];
+    st = new StringTokenizer(br.readLine());
     for (int i = 0; i < n; i++) {
-      arr[i] = Integer.parseInt(br.readLine());
+      arr[i] = Integer.parseInt(st.nextToken());
     }
 
     Arrays.sort(arr);
@@ -44,14 +41,19 @@ public class ChallengeSumOfTwoIntegers2 {
     bw.close();
   }
 
-  private static long solve() {
-    long ret = 0;
+  private static int solve() {
+    int ret = Integer.MAX_VALUE;
     int left = 0;
     int right = n - 1;
     while (left < right) {
       int sum = arr[left] + arr[right];
-      if (sum <= k) {
-        ret += right - left;
+      ret = Math.min(ret, Math.abs(sum));
+
+      if (sum == 0) {
+        return 0;
+      }
+
+      if (sum < 0) {
         left++;
       } else {
         right--;
@@ -60,10 +62,12 @@ public class ChallengeSumOfTwoIntegers2 {
 
     return ret;
     /*
-    long ret = 0;
+    int ret = Integer.MAX_VALUE;
     int right = n - 1;
-    for (int left = 0; left < n && arr[left] < k; left++) {
-      while (left < right && arr[left] + arr[right] > k) {
+    for (int left = 0; left < n - 1; ++left) {
+
+      while (left < right && arr[left] + arr[right] >= 0) {
+        ret = Math.min(ret, Math.abs(arr[left] + arr[right]));
         right--;
       }
 
@@ -71,11 +75,10 @@ public class ChallengeSumOfTwoIntegers2 {
         break;
       }
 
-      ret += right - left;
+      ret = Math.min(ret, Math.abs(arr[left] + arr[right])); // 0 미만 처리
     }
 
     return ret;
      */
   }
-
 }
