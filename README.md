@@ -256,3 +256,4 @@
   - 표준구현 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson01/IntroNumberOfIntegers.java)
 - **Lesson 02. Parametric Search**
   - 오버플로우! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/IntroSumOfNNaturalNumbers.java)
+  - 조건식 $O(N^2)$?? : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/ChallengeAscendingOrderOfTwoDimensionalArray.java)
