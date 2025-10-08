@@ -258,3 +258,4 @@
   - 오버플로우! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/IntroSumOfNNaturalNumbers.java)
   - 조건식 $O(N^2)$?? : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/ChallengeAscendingOrderOfTwoDimensionalArray.java)
   - **🔥🔥역으로생각 + greedy한 생각 + 조건만족 최대값🔥🔥** [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/ChallengeMaximumDistancePoint.java)
+  - **순서가 마음대로 올라간다고 하면 긴놈부터 올라가는게 greedy!!!!!** : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/ChallengeNPeopleWithNumbers.java)
