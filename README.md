@@ -260,3 +260,4 @@
   - **🔥🔥역으로생각 + greedy한 생각 + 조건만족 최대값🔥🔥** [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/ChallengeMaximumDistancePoint.java)
   - **순서가 마음대로 올라간다고 하면 긴놈부터 올라가는게 greedy!!!!!** : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/ChallengeNPeopleWithNumbers.java)
   - 조건 함수 논리적으로 맞는지 검증할 필요 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/ChallengeWaitingForTheBus.java)
+  - parametric search 풀이 방법을 생각할 수 있는 힘 기르기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/ChallengeFindTheNumberOfPartialStrings.java)
