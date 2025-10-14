@@ -263,3 +263,6 @@
   - parametric search 풀이 방법을 생각할 수 있는 힘 기르기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/ChallengeFindTheNumberOfPartialStrings.java)
   - **🔥🔥🔥`a`에서 `b`로 가는 경로 중 최대최소값 차이가 `x`이하인 경로가 존재하는지를 확인하려면 `low`, `high`값을 고정하고 brute force로 모든 `low`, `high`값을 다 체크해봐야한다.🔥🔥🔥** : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/ChallengeMinimizeTheHeightDifference.java)
   - 오버플로우 주의. 판단로직 정렬해서 `h`개만 확인하는거 명심!! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/ChallengeNoteAndStickyNote.java)
+
+### Chapter 4. Greedy Algorithm
+  - [추이성 증명](https://g.co/gemini/share/b8ba29dbb287) : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter04/lesson01/IntroMakeBiggestNum.java)
