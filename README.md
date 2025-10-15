@@ -266,3 +266,4 @@
 
 ### Chapter 4. Greedy Algorithm
   - [추이성 증명](https://g.co/gemini/share/b8ba29dbb287) : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter04/lesson01/IntroMakeBiggestNum.java)
+  - 생각하기 어려움.. 시간을 거꾸로 갔을 때 최선의 후보 생각 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter04/lesson01/ChallengeTheBombDismantling.java)
