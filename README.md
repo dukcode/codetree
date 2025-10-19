@@ -264,8 +264,11 @@
   - **🔥🔥🔥`a`에서 `b`로 가는 경로 중 최대최소값 차이가 `x`이하인 경로가 존재하는지를 확인하려면 `low`, `high`값을 고정하고 brute force로 모든 `low`, `high`값을 다 체크해봐야한다.🔥🔥🔥** : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/ChallengeMinimizeTheHeightDifference.java)
   - 오버플로우 주의. 판단로직 정렬해서 `h`개만 확인하는거 명심!! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter03/lesson02/ChallengeNoteAndStickyNote.java)
 
-### Chapter 4. Greedy Algorithm
+### Chapter 4. Greedy
+- **Lesson 01. Greedy Algorithm**
   - [추이성 증명](https://g.co/gemini/share/b8ba29dbb287) : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter04/lesson01/IntroMakeBiggestNum.java)
   - 생각하기 어려움.. 시간을 거꾸로 갔을 때 최선의 후보 생각 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter04/lesson01/ChallengeTheBombDismantling.java)
   - 증명 안해봄 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter04/lesson01/ChallengeRedStoneAndBlackStone2.java)
   - 추이성 증명 안해봄. 빠른 풀이 존재 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter04/lesson01/ChallengeMaximizeTheNumberOfParenthesisMatches.java)
+- **Lesson 02. 상태 반전이 가능한 문제**
+  - $O(N^2)$으로 안풀기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter04/lesson02/IntroReversingGAndH2.java)
