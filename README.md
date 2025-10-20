@@ -277,3 +277,11 @@
 
 - **Lesson 01. Dijkstra
   - $O(V^2)$ 정석 구현 -> 후보들 중 가장 짧은거리는 확정! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson01/IntroShortestPathToEachVertex3.java)
+  - $O(ElgV)$ 정석 구현 [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson01/IntroShortestPathToEachVertex.java)
+    - visited 배열이 없다면
+        ```java
+        if(dist[here] < patDist) { // <= 불가능
+          continue;
+        }
+        ```
+        으로 처리해야함. 그런데 이 경우 A-B-C, A-D-C의 길이가 우연히 겹쳤을 때 사소한 중복이 일어날 수 있음
