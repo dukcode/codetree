@@ -272,3 +272,8 @@
   - 추이성 증명 안해봄. 빠른 풀이 존재 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter04/lesson01/ChallengeMaximizeTheNumberOfParenthesisMatches.java)
 - **Lesson 02. 상태 반전이 가능한 문제**
   - $O(N^2)$으로 안풀기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter04/lesson02/IntroReversingGAndH2.java)
+
+### Chapter 5. Shortest Path
+
+- **Lesson 01. Dijkstra
+  - $O(V^2)$ 정석 구현 -> 후보들 중 가장 짧은거리는 확정! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson01/IntroShortestPathToEachVertex3.java)
