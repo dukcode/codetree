@@ -288,3 +288,4 @@
   - 다익스트라 사전순 가장 빠른 경로, 무방향은 한번 돌린 후 DFS, 방향그래프는 간선 뒤집어서 B에서부터 하고 DFS : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson01/IntroShortestDistance11.java)
   - `Neighbor`, `State` 둘다 쓰기 싫으면 `State`로 하고 $O(V^2)$하기 [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson01/ChallengeThousandStops.java)
     - **버스타는거는 $O(N^2)$으로 그래프 만들기**
+  - 시작 지점을 여러개 삽입! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson01/ChallengeMaximumOfNearestDistance.java)
