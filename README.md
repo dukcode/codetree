@@ -285,3 +285,4 @@
         }
         ```
         으로 처리해야함. 그런데 이 경우 A-B-C, A-D-C의 길이가 우연히 겹쳤을 때 사소한 중복이 일어날 수 있음
+  - 다익스트라 사전순 가장 빠른 경로, 무방향은 한번 돌린 후 DFS, 방향그래프는 간선 뒤집어서 B에서부터 하고 DFS : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson01/IntroShortestDistance11.java)
