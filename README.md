@@ -275,7 +275,7 @@
 
 ### Chapter 5. Shortest Path
 
-- **Lesson 01. Dijkstra
+- **Lesson 01. Dijkstra**
   - $O(V^2)$ 정석 구현 -> 후보들 중 가장 짧은거리는 확정! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson01/IntroShortestPathToEachVertex3.java)
   - $O(ElgV)$ 정석 구현 [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson01/IntroShortestPathToEachVertex.java)
     - visited 배열이 없다면
@@ -289,3 +289,12 @@
   - `Neighbor`, `State` 둘다 쓰기 싫으면 `State`로 하고 $O(V^2)$하기 [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson01/ChallengeThousandStops.java)
     - **버스타는거는 $O(N^2)$으로 그래프 만들기**
   - 시작 지점을 여러개 삽입! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson01/ChallengeMaximumOfNearestDistance.java)
+
+---
+
+## Trail 6 : Intermediate High
+
+### Chapter 1. Tree
+
+- **Lesson 01. 트리**
+  - 트리 지름 구하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/IntroDiameterOfTree.java)
