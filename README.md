@@ -304,3 +304,4 @@
     - 약하게연결 + 진입차수 0인 노드 존재, E=V-1 동치 조건
     - 방향그래프래서 비순환판별여부 khan's 알고리즘
     - 인바운드 처리 하기
+  - 트리에서는 전체 간선 사이 거리 구할 때 플로이드-와샬보다 `dfs` `n`번하는게 이득. 경로가 하나이기 때문 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/ChallengeNodeDistance.java)
