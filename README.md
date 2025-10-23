@@ -298,3 +298,9 @@
 
 - **Lesson 01. 트리**
   - 트리 지름 구하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/IntroDiameterOfTree.java)
+  - 루트 트리 조건 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/ChallengeTreeIdentification.java)
+    - 비순환 + 진입차수(하나는 0, 나머지는 1 이어야함) 조건
+    - 진입차수(하나는 0, 나머지는 1 이어야함) + 루트로부터 모든 노드 진입 가능 동치 조건
+    - 약하게연결 + 진입차수 0인 노드 존재, E=V-1 동치 조건
+    - 방향그래프래서 비순환판별여부 khan's 알고리즘
+    - 인바운드 처리 하기
