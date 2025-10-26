@@ -13,9 +13,9 @@ import java.util.StringTokenizer;
 
 /**
  * @see <a
- * href="https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-maximum-of-nearest-distance/description">LINK</a>
+ * href="https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-longest-round-trip/description">LINK</a>
  */
-public class ChallengeMaximumOfNearestDistance {
+public class ChallengeLongestRoundTrip {
 
   private static BufferedReader br;
   private static BufferedWriter bw;
@@ -23,13 +23,10 @@ public class ChallengeMaximumOfNearestDistance {
 
   private static int n;
   private static int m;
-
-  private static int a;
-  private static int b;
-  private static int c;
+  private static int x;
 
   private static List<Neighbor>[] adj;
-
+  private static List<Neighbor>[] adjReverse;
 
   public static void main(String[] args) throws IOException {
     br = new BufferedReader(new InputStreamReader(System.in));
@@ -38,25 +35,23 @@ public class ChallengeMaximumOfNearestDistance {
     st = new StringTokenizer(br.readLine());
     n = Integer.parseInt(st.nextToken());
     m = Integer.parseInt(st.nextToken());
-
-    st = new StringTokenizer(br.readLine());
-    a = Integer.parseInt(st.nextToken()) - 1;
-    b = Integer.parseInt(st.nextToken()) - 1;
-    c = Integer.parseInt(st.nextToken()) - 1;
+    x = Integer.parseInt(st.nextToken()) - 1;
 
     adj = new List[n];
+    adjReverse = new List[n];
     for (int i = 0; i < n; i++) {
       adj[i] = new ArrayList<>();
+      adjReverse[i] = new ArrayList<>();
     }
 
     for (int i = 0; i < m; i++) {
       st = new StringTokenizer(br.readLine());
-      int a = Integer.parseInt(st.nextToken()) - 1;
-      int b = Integer.parseInt(st.nextToken()) - 1;
+      int fr = Integer.parseInt(st.nextToken()) - 1;
+      int to = Integer.parseInt(st.nextToken()) - 1;
       int dist = Integer.parseInt(st.nextToken());
 
-      adj[a].add(new Neighbor(b, dist));
-      adj[b].add(new Neighbor(a, dist));
+      adj[fr].add(new Neighbor(to, dist));
+      adjReverse[to].add(new Neighbor(fr, dist));
     }
 
     bw.write(String.valueOf(solve()));
@@ -66,36 +61,39 @@ public class ChallengeMaximumOfNearestDistance {
   }
 
   private static int solve() {
-    int[] dist = dijkstra();
+    int[] dist = dijkstra(x, adj);
+    int[] distReverse = dijkstra(x, adjReverse);
 
-    int ret = Integer.MIN_VALUE;
-    for (int i = 0; i < n; i++) {
-      ret = Math.max(ret, dist[i]);
+    int ans = -1;
+    for (int idx = 0; idx < n; idx++) {
+      if (idx == x) {
+        continue;
+      }
+
+      if (dist[idx] == Integer.MAX_VALUE || distReverse[idx] == Integer.MAX_VALUE) {
+        continue;
+      }
+
+      ans = Math.max(ans, dist[idx] + distReverse[idx]);
     }
 
-    return ret;
+    return ans;
   }
 
-  public static int[] dijkstra() {
+  private static int[] dijkstra(int src, List<Neighbor>[] adj) {
+    boolean[] visited = new boolean[n];
+
     int[] dist = new int[n];
     Arrays.fill(dist, Integer.MAX_VALUE);
 
-    boolean[] visited = new boolean[n];
-
     PriorityQueue<State> pq = new PriorityQueue<>();
+    pq.offer(new State(src, 0));
 
-    dist[a] = 0;
-    dist[b] = 0;
-    dist[c] = 0;
-    pq.offer(new State(a, 0));
-    pq.offer(new State(b, 0));
-    pq.offer(new State(c, 0));
+    dist[src] = 0;
 
     while (!pq.isEmpty()) {
-      State curState = pq.poll();
-
-      int curIdx = curState.idx;
-      int curStateDist = curState.dist;
+      State cur = pq.poll();
+      int curIdx = cur.idx;
 
       if (visited[curIdx]) {
         continue;
@@ -105,29 +103,18 @@ public class ChallengeMaximumOfNearestDistance {
 
       for (Neighbor next : adj[curIdx]) {
         int nextIdx = next.idx;
-        int nextStateDist = curStateDist + next.dist;
+        int nextDist = cur.dist + next.dist;
 
-        if (dist[nextIdx] <= nextStateDist) {
+        if (dist[nextIdx] <= nextDist) {
           continue;
         }
 
-        dist[nextIdx] = nextStateDist;
-        pq.offer(new State(nextIdx, nextStateDist));
+        dist[nextIdx] = nextDist;
+        pq.offer(new State(nextIdx, nextDist));
       }
     }
 
     return dist;
-  }
-
-  private static class Neighbor {
-
-    int idx;
-    int dist;
-
-    public Neighbor(int idx, int dist) {
-      this.idx = idx;
-      this.dist = dist;
-    }
   }
 
   private static class State implements Comparable<State> {
@@ -142,7 +129,18 @@ public class ChallengeMaximumOfNearestDistance {
 
     @Override
     public int compareTo(State o) {
-      return Integer.compare(this.dist, o.dist);
+      return Integer.compare(dist, o.dist);
+    }
+  }
+
+  private static class Neighbor {
+
+    int idx;
+    int dist;
+
+    public Neighbor(int idx, int dist) {
+      this.idx = idx;
+      this.dist = dist;
     }
   }
 }
