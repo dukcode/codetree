@@ -418,6 +418,10 @@
       c의 최소값이 cMin일 때 해당 경로의 비용이 최소로
       계산됨. : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson01/ChallengeDotToTheDot.java)
         - 경로 위의 min값을 최대화 하려면 값을 기준으로 dijkstra 해봐야함.
+    - 최단 경로에 해당하는 간선인지
+      판별법! : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson01/ChallengeSameRoadDifferentDistance.java)
+        - 답지 복붙함 꼭 다시 풀어보기.
+        - 횟수 = cost
 
 ---
 
