@@ -427,6 +427,8 @@
     - 빨간점이 포함된 경로 중 최단거리로 가려고 하므로 `dist[fr][to] == dist[fr][red] + dist[red]to]`를 검사하는게 아니라
       `dist[fr][red] + dist[red][to]` 중 가능 한 최단거리를
       찾아야함. : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson02/ChallengePairOfPointsThatCanBeMoved.java)
+    - 플로이드 워셜을 생각할 수 있을까?
+      신기함 : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson02/ChallengeSizeComparison.java)
 
 ---
 
