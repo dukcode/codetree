@@ -423,6 +423,11 @@
         - 답지 복붙함 꼭 다시 풀어보기.
         - 횟수 = cost
 
+- **Lesson 02. Floyd Warshall**
+    - 빨간점이 포함된 경로 중 최단거리로 가려고 하므로 `dist[fr][to] == dist[fr][red] + dist[red]to]`를 검사하는게 아니라
+      `dist[fr][red] + dist[red][to]` 중 가능 한 최단거리를
+      찾아야함. : [LINK](src/main/java/org/dukcode/ps/codetree/trail05/chapter05/lesson02/ChallengePairOfPointsThatCanBeMoved.java)
+
 ---
 
 ## Trail 6 : Intermediate High
