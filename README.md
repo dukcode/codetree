@@ -448,3 +448,5 @@
         - 인바운드 처리 하기
     - 트리에서는 전체 간선 사이 거리 구할 때 플로이드-와샬보다 `dfs` `n`번하는게 이득. 경로가 하나이기
       때문 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/ChallengeNodeDistance.java)
+    - 가장 먼점이 가장 가깝게
+      루트잡기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/ChallengeTreeOptimalNode.java)
