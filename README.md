@@ -450,3 +450,5 @@
       때문 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/ChallengeNodeDistance.java)
     - 가장 먼점이 가장 가깝게
       루트잡기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/ChallengeTreeOptimalNode.java)
+    - 무방향 다중그래프라면 인접리스트로
+      풀어야함. : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/TestGraphsAndTrees.java)
