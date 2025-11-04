@@ -335,3 +335,5 @@
 - **Lesson 02. 이진 트리와 탐색**
   - 재귀 구현 방법 답지랑 내 풀이랑 비교하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson02/ChallengeTreeInorder.java)
   - 규칙 찾기가 어렵다 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson02/ChallengeDropABallInATree.java)
+  - 전위 중위로 후위 출력하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson02/ChallengeChangeTreeTraversal2.java)
+    - n범위에 따라 `inorderMap` 사용가능
