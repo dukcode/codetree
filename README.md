@@ -308,15 +308,29 @@
 
 ### Chapter 1. Tree
 
+[방향그래프가 트리일 필요충분 조건]
+1. indegree가 0인노드가 1개이고 나머지 노드는 모두 indegree가 1, 루트에서 모든 정점으로 가는 경로 존재
+2. indegree가 0인노드가 1개이고 나머지 노드는 모두 indegree가 1, 사이클이 존재하지 않는다.
+
+[무방향그래프가 트리일 필요충분 조건]
+1. E = V - 1
+2. 사이클 없음
+3. 연결 그래프
+
+3가지 조건 중 2가지만 만족하면 됨.
+
+
 - **Lesson 01. 트리**
   - 트리 지름 구하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/IntroDiameterOfTree.java)
   - 루트 트리 조건 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/ChallengeTreeIdentification.java)
     - 비순환 + 진입차수(하나는 0, 나머지는 1 이어야함) 조건
     - 진입차수(하나는 0, 나머지는 1 이어야함) + 루트로부터 모든 노드 진입 가능 동치 조건
-    - 약하게연결 + 진입차수 0인 노드 존재, E=V-1 동치 조건
     - 방향그래프래서 비순환판별여부 khan's 알고리즘
     - 인바운드 처리 하기
   - 트리에서는 전체 간선 사이 거리 구할 때 플로이드-와샬보다 `dfs` `n`번하는게 이득. 경로가 하나이기 때문 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/ChallengeNodeDistance.java)
   - 가장 먼점이 가장 가깝게 루트잡기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/ChallengeTreeOptimalNode.java)
   - 잘라붙이기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/ChallengeModifyTree.java)
   - 무방향 다중그래프라면 인접리스트로 풀어야함. : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson01/TestGraphsAndTrees.java)
+
+- **Lesson 02. 이진 트리와 탐색**
+  - 재귀 구현 방법 답지랑 내 풀이랑 비교하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson02/ChallengeTreeInorder.java)
