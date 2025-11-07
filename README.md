@@ -337,3 +337,6 @@
   - 규칙 찾기가 어렵다 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson02/ChallengeDropABallInATree.java)
   - 전위 중위로 후위 출력하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson02/ChallengeChangeTreeTraversal2.java)
     - n범위에 따라 `inorderMap` 사용가능
+
+- **Lesson 03. Tree DP**
+  - `visited`배열 오염시키는 짓 하지말기, 항상 염두하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson03/IntroNodeBestCount.java)
