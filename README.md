@@ -340,3 +340,4 @@
 
 - **Lesson 03. Tree DP**
   - `visited`배열 오염시키는 짓 하지말기, 항상 염두하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson03/IntroNodeBestCount.java)
+  - 어디까지 가야하는지 조건 찾기 + 거리 구하기(갯수 * 2) : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson03/ChallengeNodeTraversal.java)
