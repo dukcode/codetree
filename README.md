@@ -104,7 +104,7 @@
 
 ---
 
-## Trail 2 : Novice Mid
+## Trail 4 : Intermediate Low
 
 ### Chapter 1. Simulation
 
@@ -150,7 +150,7 @@
 
 - BFS 여러 시작점 동시 시작 : `Queue`에 시작점 넣어놓기
 
-### Chapter 5. DP
+### Chapter 5. DP I
 
 - **Lesson 01. subproblem을 그대로 합치면 되는 DP**
   - 특이한 점화식 유도, 모듈러연산 음수일 때 하나 더해주기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail04/chapter05/lesson01/ChallengeRectangleFill3.java)
@@ -345,3 +345,4 @@
   - 생각이 잘 안났음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson03/TestNodeBestCount2.java)
   - 불가능 조건! : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson03/ChallengeColoringNotAdjacently2.java)
   - **최소 지배 집합 문제**, Bottom-Up으로도 풀 수 있어야 하지 않을까 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson03/ChallengeNodeBestCount3.java)
+  - **제일 어려웠음.. (for문 거꾸로 채우는 동전 거슬러주기 DP할 수 있다는데 모르겠음. 답지보고 생각해보기)** : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson03/ChallengeColoringNotAdjacently.java)
