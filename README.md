@@ -342,3 +342,4 @@
   - `visited`배열 오염시키는 짓 하지말기, 항상 염두하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson03/IntroNodeBestCount.java)
   - 어디까지 가야하는지 조건 찾기 + 거리 구하기(갯수 * 2) : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson03/ChallengeNodeTraversal.java)
   - 사이드 이팩트를 사용하는 함수를 그렇지 않게 변경하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson03/ChallengeBinaryTreeMaximumPathSum.java)
+  - 생각이 잘 안났음 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson03/TestNodeBestCount2.java)
