@@ -1,0 +1,89 @@
+package org.dukcode.ps.codetree.trail06.chapter02.lesson01;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.util.StringTokenizer;
+import java.util.stream.IntStream;
+
+/**
+ * @see <a
+ * href="https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-cycle-of-graph/description">LINK</a>
+ */
+public class ChallengeCycleOfGraph {
+
+  private static BufferedReader br;
+  private static BufferedWriter bw;
+  private static StringTokenizer st;
+
+  private static int n;
+  private static int m;
+
+  private static int[] ranks;
+  private static int[] roots;
+
+  public static void main(String[] args) throws IOException {
+    br = new BufferedReader(new InputStreamReader(System.in));
+    bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+    st = new StringTokenizer(br.readLine());
+    n = Integer.parseInt(st.nextToken());
+    m = Integer.parseInt(st.nextToken());
+
+    ranks = new int[n];
+    roots = IntStream.range(0, n).toArray();
+
+    int order = -1;
+    for (int i = 0; i < m; i++) {
+      st = new StringTokenizer(br.readLine());
+      int a = Integer.parseInt(st.nextToken()) - 1;
+      int b = Integer.parseInt(st.nextToken()) - 1;
+
+      if (areInSameSet(a, b)) {
+        order = i;
+        break;
+      }
+
+      union(a, b);
+    }
+
+    bw.write(order == -1 ? "happy" : String.valueOf(order + 1));
+
+    br.close();
+    bw.close();
+  }
+
+  private static boolean areInSameSet(int a, int b) {
+    return findRoot(a) == findRoot(b);
+  }
+
+  private static void union(int a, int b) {
+    int rootA = findRoot(a);
+    int rootB = findRoot(b);
+
+    if (rootA == rootB) {
+      return;
+    }
+
+    if (ranks[rootA] < ranks[rootB]) {
+      roots[rootA] = rootB;
+      return;
+    } else if (ranks[rootA] > ranks[rootB]) {
+      roots[rootB] = rootA;
+      return;
+    }
+
+    roots[rootA] = rootB;
+    ranks[rootB]++;
+  }
+
+  private static int findRoot(int x) {
+    if (roots[x] == x) {
+      return x;
+    }
+
+    return roots[x] = findRoot(roots[x]);
+  }
+}
