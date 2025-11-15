@@ -349,3 +349,8 @@
 
 - **Lesson 04. LCA**
   - sparse 테이블 생성 및 이용방법 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson04/IntroCommonAncestorOfNode2.java)
+
+### Chapter 2. MST
+
+- **Lesson 01. Disjoint Set (Union Find)**
+  - Disjoint Set 정석 구현 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson01/IntroElementsOfASet.java)
