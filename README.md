@@ -354,3 +354,4 @@
 
 - **Lesson 01. Disjoint Set (Union Find)**
   - Disjoint Set 정석 구현 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson01/IntroElementsOfASet.java)
+  - 사전순 3가지 방법 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson01/ChallengeConnectVertices.java)
