@@ -346,3 +346,6 @@
   - 불가능 조건! : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson03/ChallengeColoringNotAdjacently2.java)
   - **최소 지배 집합 문제**, Bottom-Up으로도 풀 수 있어야 하지 않을까 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson03/ChallengeNodeBestCount3.java)
   - **제일 어려웠음.. (for문 거꾸로 채우는 동전 거슬러주기 DP할 수 있다는데 모르겠음. 답지보고 생각해보기)** : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson03/ChallengeColoringNotAdjacently.java)
+
+- **Lesson 04. LCA**
+  - sparse 테이블 생성 및 이용방법 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter01/lesson04/IntroCommonAncestorOfNode2.java)
