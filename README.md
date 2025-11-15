@@ -356,3 +356,4 @@
   - Disjoint Set 정석 구현 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson01/IntroElementsOfASet.java)
   - 사전순 3가지 방법 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson01/ChallengeConnectVertices.java)
   - 큰 `weight`의 간선부터 연결해보기. disjoint set으로 풀 수 있을까? : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson01/ChallengeMinimumEdgeSize.java)
+  - `minCost` 정립 좀 어려웠음. : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson01/ChallengeConnectWithTheMostVertices.java)
