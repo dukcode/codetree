@@ -1,8 +1,8 @@
-# CodeTree Main 풀이
+# CodeTree 풀이
 
 ---
 
-## Trail : Novice Mid
+## Trail 2 : Novice Mid
 
 ### Chapter 1. 함수
 
@@ -355,3 +355,4 @@
 - **Lesson 01. Disjoint Set (Union Find)**
   - Disjoint Set 정석 구현 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson01/IntroElementsOfASet.java)
   - 사전순 3가지 방법 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson01/ChallengeConnectVertices.java)
+  - 큰 `weight`의 간선부터 연결해보기. disjoint set으로 풀 수 있을까? : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson01/ChallengeMinimumEdgeSize.java)
