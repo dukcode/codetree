@@ -361,5 +361,8 @@
   - 위에랑 비슷함. 칸 합치기 문제 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson01/ChallengeCan.java)
   - `union`반대 `beta`도 외워라 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson01/ChallengeRedTeamAndWhiteTeam.java)
 
+- **Lesson 02. Kruskal**
+  - MST에 들어갈 가능성 있는 간선만 만드는 것이 중요! : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson02/ChallengePointOnAThreeDimensionalPlane.java)
+
 - **Lesson 03. Prim**
   - Prim 정석 구현 참고 (dijkstra와 거의 비슷) : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson03/IntroMinimumSpanningTree8.java)
