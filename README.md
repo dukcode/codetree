@@ -363,6 +363,7 @@
 
 - **Lesson 02. Kruskal**
   - MST에 들어갈 가능성 있는 간선만 만드는 것이 중요! : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson02/ChallengePointOnAThreeDimensionalPlane.java)
+  - `board`에서 mst는 많은 전처리 과정을 거쳐야함 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson02/ChallengeExploreMars.java)
 
 - **Lesson 03. Prim**
   - Prim 정석 구현 참고 (dijkstra와 거의 비슷) : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson03/IntroMinimumSpanningTree8.java)
