@@ -367,3 +367,8 @@
 
 - **Lesson 03. Prim**
   - Prim 정석 구현 참고 (dijkstra와 거의 비슷) : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson03/IntroMinimumSpanningTree8.java)
+
+### Chapter 5. Advanced DP
+
+- **Lesson 03. Bitmask**
+  - 비트마스트 시뮬레이션, 첫줄만 해보면 안다(아이디어). 첫줄에 누른 횟수 포함시키기, `board` 돌려놓기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter05/lesson03/ChallengeFilpUpDownLeftRight2.java)
