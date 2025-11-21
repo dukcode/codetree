@@ -369,6 +369,14 @@
   - Prim 정석 구현 참고 (dijkstra와 거의 비슷) : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson03/IntroMinimumSpanningTree8.java)
   - $O(N^2)$ 정석 풀이. 조금 어색함 생각하기 힘들 듯 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson03/ChallengePlaceObject.java)
 
+### Chapter 3. 위상 정렬
+
+- **Lesson 01. Topological Sort**
+  - 유향그래프가 위상 정렬이 가능한가?
+    - 단 하나의 조건 : 사이클이 없어야 한다.
+    - 판별 : Kahn's Algorithm(inbound 하나씩 줄여가며 BFS), 3색 DFS(DFS로 사이클 여부 판별(`VISITING`, `VISITED`))
+    - 출력 : DFS 후 `cur`를 `order`에 넣고 `order`뒤집기, Kahn's Algorithm(`PriorityQueue`를 이용한 사전순 출력 가능)
+
 ### Chapter 5. Advanced DP
 
 - **Lesson 03. Bitmask**
