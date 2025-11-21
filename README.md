@@ -376,6 +376,7 @@
     - 단 하나의 조건 : 사이클이 없어야 한다.
     - 판별 : Kahn's Algorithm(inbound 하나씩 줄여가며 BFS), 3색 DFS(DFS로 사이클 여부 판별(`VISITING`, `VISITED`))
     - 출력 : DFS 후 `cur`를 `order`에 넣고 `order`뒤집기, Kahn's Algorithm(`PriorityQueue`를 이용한 사전순 출력 가능)
+  - 사전순 지옥. 생각하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter03/lesson01/ChallengeNodesGuessing.java)
 
 ### Chapter 5. Advanced DP
 
