@@ -367,6 +367,7 @@
 
 - **Lesson 03. Prim**
   - Prim 정석 구현 참고 (dijkstra와 거의 비슷) : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson03/IntroMinimumSpanningTree8.java)
+  - $O(N^2)$ 정석 풀이. 조금 어색함 생각하기 힘들 듯 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter02/lesson03/ChallengePlaceObject.java)
 
 ### Chapter 5. Advanced DP
 
