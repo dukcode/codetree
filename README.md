@@ -379,6 +379,7 @@
     - 출력 : DFS 후 `cur`를 `order`에 넣고 `order`뒤집기, Kahn's Algorithm(`PriorityQueue`를 이용한 사전순 출력 가능)
   - 사전순 지옥. 생각하기 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter03/lesson01/ChallengeNodesGuessing.java)
   - 사이클 존재 판별 3가지 방법 정석 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter03/lesson01/ChallengeDetectCycle.java)
+  - 단뱡향 간선, 양방향 간선 있을 때 양방향 간선의 방향을 결정하여 사이클 여부를 결정 가능? -> 양방향은 스킵가능 : [LINK](src/main/java/org/dukcode/ps/codetree/trail06/chapter03/lesson01/ChallengeRemoveCycle.java)
 
 ### Chapter 5. Advanced DP
 
