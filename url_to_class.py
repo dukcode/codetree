@@ -25,26 +25,19 @@ def format_number(num):
     # Convert number to string and pad with leading zeros
     return f"{int(num):02d}"
 
-def create_java_class(trail_num, chapter_num, lesson_num, url):
-    if not is_valid_codetree_url(url):
-        print("Error: Clipboard does not contain a valid CodeTree URL")
-        sys.exit(1)
-        
-    class_name = extract_class_name_from_url(url)
-    if not class_name:
-        print(f"Could not extract class name from URL: {url}")
-        return
-    
-    # Define the package path and directory with formatted numbers
-    package_name = f"org.dukcode.ps.codetree.trail{format_number(trail_num)}.chapter{format_number(chapter_num)}.lesson{format_number(lesson_num)}"
-    package_dir = os.path.join("src", "main", "java", *package_name.split("."))
-    
+def extract_trail_info_from_url(url):
+    """Extract trail, chapter, lesson numbers from URL path segments."""
+    # URL pattern: .../trails/complete/curated-cards/intro-print-word/description
+    # We don't extract numbers from URL; they are provided as arguments or not needed
+    pass
+
+def create_java_class(package_name, package_dir, class_name, url):
     # Ensure the directory exists
     os.makedirs(package_dir, exist_ok=True)
-    
+
     # Create the file path
     java_file = os.path.join(package_dir, f"{class_name}.java")
-    
+
     # Write the Java class file
     with open(java_file, 'w') as f:
         f.write(f"package {package_name};\n\n")
@@ -67,20 +60,67 @@ def create_java_class(trail_num, chapter_num, lesson_num, url):
         f.write("    bw.close();\n")
         f.write("  }\n")
         f.write("}\n")
-    
+
     print(f"Created Java class at: {java_file}")
 
+def create_kotlin_class(package_name, package_dir, class_name, url):
+    # Ensure the directory exists
+    os.makedirs(package_dir, exist_ok=True)
+
+    # Create the file path
+    kotlin_file = os.path.join(package_dir, f"{class_name}.kt")
+
+    # Write the Kotlin class file
+    with open(kotlin_file, 'w') as f:
+        f.write(f"package {package_name}\n\n")
+        f.write("import java.io.BufferedReader\n")
+        f.write("import java.io.BufferedWriter\n")
+        f.write("import java.io.InputStreamReader\n")
+        f.write("import java.io.OutputStreamWriter\n")
+        f.write("import java.util.StringTokenizer\n\n")
+        f.write(f"/**\n * @see [LINK]({url})\n */\n")
+        f.write("private val br = BufferedReader(InputStreamReader(System.`in`))\n")
+        f.write("private val bw = BufferedWriter(OutputStreamWriter(System.out))\n")
+        f.write("private var st: StringTokenizer? = null\n\n")
+        f.write("fun main() {\n")
+        f.write("\n")
+        f.write("  bw.flush()\n")
+        f.write("}\n")
+
+    print(f"Created Kotlin class at: {kotlin_file}")
+
 def main():
-    if len(sys.argv) != 4:
-        print("Usage: python program.py <trail_number> <chapter_number> <lesson_number>")
+    if len(sys.argv) != 5:
+        print("Usage: python url_to_class.py <java|kotlin> <trail_number> <chapter_number> <lesson_number>")
+        print("  The CodeTree URL should be copied to clipboard.")
         sys.exit(1)
-    
-    trail_num = sys.argv[1]
-    chapter_num = sys.argv[2]
-    lesson_num = sys.argv[3]
+
+    lang = sys.argv[1].lower()
+    trail_num = sys.argv[2]
+    chapter_num = sys.argv[3]
+    lesson_num = sys.argv[4]
     url = pyperclip.paste().strip()
-    
-    create_java_class(trail_num, chapter_num, lesson_num, url)
+
+    if not is_valid_codetree_url(url):
+        print("Error: Clipboard does not contain a valid CodeTree URL")
+        sys.exit(1)
+
+    class_name = extract_class_name_from_url(url)
+    if not class_name:
+        print(f"Could not extract class name from URL: {url}")
+        sys.exit(1)
+
+    package_name = f"org.dukcode.ps.codetree.trail{format_number(trail_num)}.chapter{format_number(chapter_num)}.lesson{format_number(lesson_num)}"
+
+    if lang == 'java':
+        package_dir = os.path.join("src", "main", "java", *package_name.split("."))
+        create_java_class(package_name, package_dir, class_name, url)
+    elif lang == 'kotlin':
+        package_dir = os.path.join("src", "main", "kotlin", *package_name.split("."))
+        create_kotlin_class(package_name, package_dir, class_name, url)
+    else:
+        print(f"Error: Unsupported language '{lang}'. Use 'java' or 'kotlin'.")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main() 
