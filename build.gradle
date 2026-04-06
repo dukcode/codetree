@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'org.jetbrains.kotlin.jvm' version '1.9.25'
+    id 'com.diffplug.spotless' version '8.4.0'
 }
 
 group = 'org.dukcode.ps'
@@ -19,4 +20,11 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+spotless {
+    kotlin {
+        target 'src/**/*.kt'
+        ktlint('1.8.0')
+    }
 }

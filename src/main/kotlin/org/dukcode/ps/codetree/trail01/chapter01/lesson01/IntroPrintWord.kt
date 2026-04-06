@@ -4,7 +4,7 @@ import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.InputStreamReader
 import java.io.OutputStreamWriter
-import java.util.*
+import java.util.StringTokenizer
 
 /**
  * @see [LINK](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-print-word/description)
