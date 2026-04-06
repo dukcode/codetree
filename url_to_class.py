@@ -79,10 +79,10 @@ def create_kotlin_class(package_name, package_dir, class_name, url):
         f.write("import java.io.OutputStreamWriter\n\n")
         f.write("private val br = BufferedReader(InputStreamReader(System.`in`))\n")
         f.write("private val bw = BufferedWriter(OutputStreamWriter(System.out))\n\n")
-        f.write(f"/**\n * @see [LINK]({url})\n */\n")
+        f.write(f"/**\n * @see <a href=\"{url}\">LINK</a>\n */\n")
         f.write("fun main() {\n")
         f.write("\n")
-        f.write("  bw.flush()\n")
+        f.write("    bw.flush()\n")
         f.write("}\n")
 
     print(f"Created Kotlin class at: {kotlin_file}")
