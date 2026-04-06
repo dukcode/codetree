@@ -19,7 +19,7 @@ fun main() {
     bw.flush()
 }
 
-fun printSquare(size: Int) {
+private fun printSquare(size: Int) {
     var i = 0
     repeat(size) {
         repeat(size) {

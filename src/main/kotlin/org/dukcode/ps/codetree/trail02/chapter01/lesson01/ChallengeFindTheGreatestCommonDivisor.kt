@@ -22,7 +22,7 @@ fun main() {
     bw.flush()
 }
 
-fun gcd(
+private fun gcd(
     n: Int,
     m: Int,
 ): Int = if (m == 0) n else gcd(m, n % m)

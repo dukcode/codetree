@@ -21,7 +21,7 @@ fun main() {
     bw.flush()
 }
 
-fun printLine(cnt: Int) {
+private fun printLine(cnt: Int) {
     repeat(cnt) {
         bw.write("12345^&*()_")
         bw.newLine()

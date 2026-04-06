@@ -22,7 +22,7 @@ fun main() {
     bw.flush()
 }
 
-fun createRow(col: Int): String =
+private fun createRow(col: Int): String =
     buildString {
         repeat(col) {
             append("*")

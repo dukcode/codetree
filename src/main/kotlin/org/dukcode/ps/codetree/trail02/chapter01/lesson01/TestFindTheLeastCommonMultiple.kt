@@ -10,26 +10,25 @@ private val br = BufferedReader(InputStreamReader(System.`in`))
 private val bw = BufferedWriter(OutputStreamWriter(System.out))
 
 /**
- * @see [LINK](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-create-a-rectangle-using-a-function/description)
+ * @see <a href="https://www.codetree.ai/ko/trails/complete/curated-cards/test-find-the-least-common-multiple/description">LINK</a>
  */
 fun main() {
     val st = StringTokenizer(br.readLine())
-    val h = st.nextToken().toInt()
-    val w = st.nextToken().toInt()
 
-    printNums(h, w)
+    val n = st.nextToken().toInt()
+    val m = st.nextToken().toInt()
+
+    bw.write(lcm(n, m).toString())
 
     bw.flush()
 }
 
-private fun printNums(
-    h: Int,
-    w: Int,
-) {
-    repeat(h) {
-        repeat(w) {
-            bw.write('1'.code)
-        }
-        bw.newLine()
-    }
-}
+fun lcm(
+    n: Int,
+    m: Int,
+): Int = n * m / gcd(n, m)
+
+private fun gcd(
+    n: Int,
+    m: Int,
+): Int = if (m == 0) n else gcd(m, n % m)
