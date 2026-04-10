@@ -23,7 +23,7 @@ fun main() {
     bw.flush()
 }
 
-fun lcm(
+private fun lcm(
     n: Int,
     m: Int,
 ): Int = n * m / gcd(n, m)

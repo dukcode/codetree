@@ -22,7 +22,7 @@ fun main() {
     bw.flush()
 }
 
-fun power(
+private fun power(
     a: Int,
     b: Int,
 ): Int {

@@ -22,7 +22,7 @@ fun main() {
     bw.flush()
 }
 
-fun sumPrimeBetween(
+private fun sumPrimeBetween(
     frIn: Int,
     toIn: Int,
 ): Int =
@@ -31,7 +31,7 @@ fun sumPrimeBetween(
             if (isPrime(it)) it else 0
         }
 
-fun isPrime(num: Int): Boolean {
+private fun isPrime(num: Int): Boolean {
     if (num <= 2) {
         return true
     }

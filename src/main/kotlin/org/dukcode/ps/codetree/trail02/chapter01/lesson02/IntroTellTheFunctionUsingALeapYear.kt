@@ -19,7 +19,7 @@ fun main() {
     bw.flush()
 }
 
-fun isLeafYear(year: Int): Boolean {
+private fun isLeafYear(year: Int): Boolean {
     if (year % 400 == 0) return true
     if (year % 100 == 0) return false
     if (year % 4 == 0) return true

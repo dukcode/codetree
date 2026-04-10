@@ -23,7 +23,7 @@ fun main() {
     bw.flush()
 }
 
-fun count369(
+private fun count369(
     frIn: Int,
     toIn: Int,
 ): Int {

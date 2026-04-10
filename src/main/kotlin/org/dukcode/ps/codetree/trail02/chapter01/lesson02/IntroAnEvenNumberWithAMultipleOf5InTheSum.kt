@@ -18,9 +18,9 @@ fun main() {
     bw.flush()
 }
 
-fun isMagicNumber(num: Int): Boolean = num % 2 == 0 && digitSum(num) % 5 == 0
+private fun isMagicNumber(num: Int): Boolean = num % 2 == 0 && digitSum(num) % 5 == 0
 
-fun digitSum(num: Int): Int {
+private fun digitSum(num: Int): Int {
     var ret = 0
 
     var value = num

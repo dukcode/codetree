@@ -25,7 +25,7 @@ fun main() {
     bw.flush()
 }
 
-fun minOf(
+private fun minOf(
     a: Int,
     b: Int,
     c: Int,
