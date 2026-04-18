@@ -1,4 +1,4 @@
-package orgMain.ps.codetree.trail02.chapter01.lesson05.testStarOutputWithRecursiveFunction2
+package orgMain.ps.codetree.trail02.chapter02.lesson01.testStarOutputWithRecursiveFunction2
 
 import java.io.BufferedReader
 import java.io.BufferedWriter
