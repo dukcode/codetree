@@ -23,7 +23,7 @@ fun main() {
     bw.flush()
 }
 
-fun operate(
+private fun operate(
     a: Int,
     op: Char,
     b: Int,

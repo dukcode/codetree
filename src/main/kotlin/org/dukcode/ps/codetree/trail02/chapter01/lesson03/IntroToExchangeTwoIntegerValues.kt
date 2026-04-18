@@ -1,4 +1,4 @@
-package org.dukcode.ps.codetree.trail02.chapter01.lesson03
+package org.dukcode.ps.codetree.trail02.chapter01.lesson03.introToExchangeTwoIntegerValues
 
 import java.io.BufferedReader
 import java.io.BufferedWriter
@@ -37,6 +37,6 @@ private fun pareInts(): IntArray =
         IntArray(countTokens()) { nextToken().toInt() }
     }
 
-class IntWrapper(
+private class IntWrapper(
     var value: Int,
 )

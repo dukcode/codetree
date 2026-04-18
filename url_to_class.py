@@ -70,9 +70,13 @@ def create_kotlin_class(package_name, package_dir, class_name, url):
     # Create the file path
     kotlin_file = os.path.join(package_dir, f"{class_name}.kt")
 
+    # Per-file sub-package (camelCase) to isolate top-level private classes
+    # across files in the same directory. Kotlin allows package != directory.
+    kotlin_package = f"{package_name}.{class_name[0].lower()}{class_name[1:]}"
+
     # Write the Kotlin class file
     with open(kotlin_file, 'w') as f:
-        f.write(f"package {package_name}\n\n")
+        f.write(f"package {kotlin_package}\n\n")
         f.write("import java.io.BufferedReader\n")
         f.write("import java.io.BufferedWriter\n")
         f.write("import java.io.InputStreamReader\n")
