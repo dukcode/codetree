@@ -31,12 +31,22 @@ def extract_trail_info_from_url(url):
     # We don't extract numbers from URL; they are provided as arguments or not needed
     pass
 
+def confirm_overwrite(file_path):
+    if not os.path.exists(file_path):
+        return True
+    response = input(f"File already exists: {file_path}\nOverwrite? (y/n): ").strip().lower()
+    return response == 'y'
+
 def create_java_class(package_name, package_dir, class_name, url):
     # Ensure the directory exists
     os.makedirs(package_dir, exist_ok=True)
 
     # Create the file path
     java_file = os.path.join(package_dir, f"{class_name}.java")
+
+    if not confirm_overwrite(java_file):
+        print("Aborted.")
+        return
 
     # Write the Java class file
     with open(java_file, 'w') as f:
@@ -69,6 +79,10 @@ def create_kotlin_class(package_name, package_dir, class_name, url):
 
     # Create the file path
     kotlin_file = os.path.join(package_dir, f"{class_name}.kt")
+
+    if not confirm_overwrite(kotlin_file):
+        print("Aborted.")
+        return
 
     # Per-file sub-package (camelCase) to isolate top-level private classes
     # across files in the same directory. Kotlin allows package != directory.
