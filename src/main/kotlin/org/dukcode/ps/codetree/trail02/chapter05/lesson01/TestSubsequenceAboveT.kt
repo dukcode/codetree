@@ -1,0 +1,43 @@
+package org.dukcode.ps.codetree.trail02.chapter05.lesson01.testSubsequenceAboveT
+
+import java.io.BufferedReader
+import java.io.BufferedWriter
+import java.io.InputStreamReader
+import java.io.OutputStreamWriter
+import java.util.StringTokenizer
+
+private val br = BufferedReader(InputStreamReader(System.`in`))
+private val bw = BufferedWriter(OutputStreamWriter(System.out))
+
+/**
+ * @see <a href="https://www.codetree.ai/ko/trails/complete/curated-cards/test-subsequence-above-t/description">LINK</a>
+ */
+fun main() {
+    val (n, t) = parseInts()
+    val arr = parseInts()
+
+    var maxCnt = 0
+    var cnt = 0
+    for (idx in arr.indices) {
+        if (arr[idx] <= t) {
+            maxCnt = maxOf(maxCnt, cnt)
+            cnt = 0
+            continue
+        }
+
+        cnt++
+    }
+
+    maxCnt = maxOf(maxCnt, cnt)
+
+    bw.write(maxCnt.toString())
+
+    bw.flush()
+}
+
+private fun parseInts() =
+    StringTokenizer(br.readLine()).run {
+        IntArray(countTokens()) {
+            nextToken().toInt()
+        }
+    }
