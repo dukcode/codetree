@@ -19,7 +19,7 @@ fun main() {
     bw.flush()
 }
 
-fun squareDigitSum(n: Int): Int {
+private fun squareDigitSum(n: Int): Int {
     if (n == 0) {
         return 0
     }
